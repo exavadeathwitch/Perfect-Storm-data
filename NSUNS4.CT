@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="31">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"Music Volume"</Description>
+      <LastState Value="20" RealAddress="7FF672EDD1AA"/>
+      <VariableType>Byte</VariableType>
+      <Address>NSUNS4.exe+160D1AA</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"Ryo"</Description>
+      <LastState Value="999" RealAddress="7FF672EDD2AC"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>NSUNS4.exe+160D2AC</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
