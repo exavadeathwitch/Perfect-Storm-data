@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="31">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"Global Speed"</Description>
+      <VariableType>Float</VariableType>
+      <Address>NSUNS4.exe+16075F4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"Music Volume"</Description>
+      <VariableType>Byte</VariableType>
+      <Address>NSUNS4.exe+160D1AA</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"Ryo"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>NSUNS4.exe+160D2AC</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry Color="80000008">
+      <Description>Change of movss [NSUNS4.exe+16075F4],xmm0</Description>
+      <AddressString>NSUNS4.exe+575465</AddressString>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>01</Byte>
+        <Byte>FF</Byte>
+        <Byte>50</Byte>
+        <Byte>10</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>05</Byte>
+        <Byte>87</Byte>
+        <Byte>21</Byte>
+        <Byte>09</Byte>
+        <Byte>01</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>5C</Byte>
+        <Byte>24</Byte>
+        <Byte>30</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="80000008">
+      <Description>Change of cvttss2si eax,xmm2</Description>
+      <AddressString>NSUNS4.exe+57544C</AddressString>
+      <Before>
+        <Byte>C8</Byte>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>5E</Byte>
+        <Byte>D1</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>2C</Byte>
+        <Byte>C2</Byte>
+      </Actual>
+      <After>
+        <Byte>39</Byte>
+        <Byte>86</Byte>
+        <Byte>E8</Byte>
+        <Byte>47</Byte>
+        <Byte>01</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="80000008">
+      <Description>Change of mov rcx,[rcx+00014A70]</Description>
+      <AddressString>NSUNS4.exe+575406</AddressString>
+      <Before>
+        <Byte>99</Byte>
+        <Byte>78</Byte>
+        <Byte>4A</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>89</Byte>
+        <Byte>70</Byte>
+        <Byte>4A</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>01</Byte>
+        <Byte>FF</Byte>
+        <Byte>50</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="80000008">
+      <Description>Change of mov rax,[rcx]</Description>
+      <AddressString>NSUNS4.exe+57540D</AddressString>
+      <Before>
+        <Byte>89</Byte>
+        <Byte>70</Byte>
+        <Byte>4A</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>01</Byte>
+      </Actual>
+      <After>
+        <Byte>FF</Byte>
+        <Byte>50</Byte>
+        <Byte>18</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
