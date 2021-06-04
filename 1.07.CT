@@ -2,32 +2,332 @@
 <CheatTable CheatEngineTableVersion="34">
   <CheatEntries>
     <CheatEntry>
-      <ID>4</ID>
-      <Description>"Global Speed"</Description>
-      <LastState Value="1" RealAddress="7FF789B075F4"/>
-      <VariableType>Float</VariableType>
-      <Address>NSUNS4.exe+16075F4</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>3</ID>
-      <Description>"Music Volume"</Description>
-      <LastState Value="20" RealAddress="7FF789B0D1AA"/>
-      <VariableType>Byte</VariableType>
-      <Address>NSUNS4.exe+160D1AA</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>0</ID>
-      <Description>"Ryo"</Description>
-      <LastState Value="18160" RealAddress="7FF789B0D2AC"/>
-      <VariableType>4 Bytes</VariableType>
-      <Address>NSUNS4.exe+160D2AC</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>5</ID>
-      <Description>"IsInFocus"</Description>
-      <LastState Value="1" RealAddress="7FF789BAADA8"/>
-      <VariableType>4 Bytes</VariableType>
-      <Address>NSUNS4.exe+16AADA8</Address>
+      <ID>37</ID>
+      <Description>"Static Addresses"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <Color>8080FF</Color>
+      <GroupHeader>1</GroupHeader>
+      <Address/>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>4</ID>
+          <Description>"Global Speed"</Description>
+          <LastState Value="1" RealAddress="7FF79A5075F4"/>
+          <Color>0000FF</Color>
+          <VariableType>Float</VariableType>
+          <Address>NSUNS4.exe+16075F4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>5</ID>
+          <Description>"GameisFocused"</Description>
+          <LastState Value="0" RealAddress="7FF79A5AADA8"/>
+          <Color>0000FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>NSUNS4.exe+16AADA8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3</ID>
+          <Description>"Music Volume"</Description>
+          <LastState Value="20" RealAddress="7FF79A50D1AA"/>
+          <Color>0000FF</Color>
+          <VariableType>Byte</VariableType>
+          <Address>NSUNS4.exe+160D1AA</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>0</ID>
+          <Description>"Ryo"</Description>
+          <LastState Value="9999999" RealAddress="7FF79A50D2AC"/>
+          <Color>0000FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>NSUNS4.exe+160D2AC</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>15</ID>
+          <Description>"Presets"</Description>
+          <Options moManualExpandCollapse="1"/>
+          <LastState Value="" RealAddress="7FF79A524000"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF8000</Color>
+          <GroupHeader>1</GroupHeader>
+          <Address>NSUNS4.exe+1624000</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>11</ID>
+              <Description>"Preset 1"</Description>
+              <LastState Value="169 1" RealAddress="7FF79A524000"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8000</Color>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>2</ByteLength>
+              <Address>+0</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>12</ID>
+                  <Description>"Support 1"</Description>
+                  <LastState Value="111 1" RealAddress="7FF79A52400C"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FF8000</Color>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>2</ByteLength>
+                  <Address>+0xC</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>14</ID>
+                      <Description>"Support 2"</Description>
+                      <LastState Value="117 1" RealAddress="7FF79A524018"/>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FF8000</Color>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>2</ByteLength>
+                      <Address>+c</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>16</ID>
+              <Description>"Preset 2"</Description>
+              <LastState Value="169 1" RealAddress="7FF79A5241A8"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8000</Color>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>2</ByteLength>
+              <Address>+0x1A8</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>17</ID>
+                  <Description>"Support 1"</Description>
+                  <LastState Value="226 0" RealAddress="7FF79A5241B4"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FF8000</Color>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>2</ByteLength>
+                  <Address>+0xC</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>18</ID>
+                      <Description>"Support 2"</Description>
+                      <LastState Value="77 1" RealAddress="7FF79A5241C0"/>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FF8000</Color>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>2</ByteLength>
+                      <Address>+0xC</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>19</ID>
+              <Description>"Preset 3"</Description>
+              <LastState Value="169 1" RealAddress="7FF79A524350"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8000</Color>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>2</ByteLength>
+              <Address>+0x350</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>20</ID>
+                  <Description>"Support 1"</Description>
+                  <LastState Value="22 1" RealAddress="7FF79A52435C"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FF8000</Color>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>2</ByteLength>
+                  <Address>+0xC</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>21</ID>
+                      <Description>"Support 2"</Description>
+                      <LastState Value="7 1" RealAddress="7FF79A524368"/>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FF8000</Color>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>2</ByteLength>
+                      <Address>+0xC</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>22</ID>
+              <Description>"Preset 4"</Description>
+              <LastState Value="0 0" RealAddress="7FF79A5244F8"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8000</Color>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>2</ByteLength>
+              <Address>+0x4f8</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>23</ID>
+                  <Description>"Support 1"</Description>
+                  <LastState Value="0 0" RealAddress="7FF79A524504"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FF8000</Color>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>2</ByteLength>
+                  <Address>+0xC</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>24</ID>
+                      <Description>"Support 2"</Description>
+                      <LastState Value="0 0" RealAddress="7FF79A524510"/>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FF8000</Color>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>2</ByteLength>
+                      <Address>+0xC</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>25</ID>
+              <Description>"Preset 5"</Description>
+              <LastState Value="0 0" RealAddress="7FF79A5246A0"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8000</Color>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>2</ByteLength>
+              <Address>+0x6a0</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>26</ID>
+                  <Description>"Support 1"</Description>
+                  <LastState Value="0 0" RealAddress="7FF79A5246AC"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FF8000</Color>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>2</ByteLength>
+                  <Address>+0xC</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>27</ID>
+                      <Description>"Support 2"</Description>
+                      <LastState Value="0 0" RealAddress="7FF79A5246B8"/>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FF8000</Color>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>2</ByteLength>
+                      <Address>+0xC</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>28</ID>
+              <Description>"Preset 6"</Description>
+              <LastState Value="0 0" RealAddress="7FF79A524848"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8000</Color>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>2</ByteLength>
+              <Address>+0x848</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>29</ID>
+                  <Description>"Support 1"</Description>
+                  <LastState Value="0 0" RealAddress="7FF79A524854"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FF8000</Color>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>2</ByteLength>
+                  <Address>+0xC</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>30</ID>
+                      <Description>"Support 2"</Description>
+                      <LastState Value="0 0" RealAddress="7FF79A524860"/>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FF8000</Color>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>2</ByteLength>
+                      <Address>+0xC</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>31</ID>
+              <Description>"Preset 7"</Description>
+              <LastState Value="0 0" RealAddress="7FF79A5249F0"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8000</Color>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>2</ByteLength>
+              <Address>+0x9f0</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>32</ID>
+                  <Description>"Support 1"</Description>
+                  <LastState Value="0 0" RealAddress="7FF79A5249FC"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FF8000</Color>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>2</ByteLength>
+                  <Address>+0xc</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>33</ID>
+                      <Description>"Support 2"</Description>
+                      <LastState Value="0 0" RealAddress="7FF79A524A08"/>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FF8000</Color>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>2</ByteLength>
+                      <Address>+0xc</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>34</ID>
+              <Description>"Preset 8"</Description>
+              <LastState Value="0 0" RealAddress="7FF79A524B98"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8000</Color>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>2</ByteLength>
+              <Address>+0xb98</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>35</ID>
+                  <Description>"Support 1"</Description>
+                  <LastState Value="0 0" RealAddress="7FF79A524BA4"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FF8000</Color>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>2</ByteLength>
+                  <Address>+0xC</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>36</ID>
+                      <Description>"Support 2"</Description>
+                      <LastState Value="0 0" RealAddress="7FF79A524BB0"/>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FF8000</Color>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>2</ByteLength>
+                      <Address>+0xC</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
@@ -133,7 +433,7 @@
         <Byte>8B</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="80000008">
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rcx+00000118],00000000</Description>
       <AddressString>NSUNS4.exe+AB47A2</AddressString>
       <Before>
@@ -163,7 +463,7 @@
         <Byte>00</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="80000008">
+    <CodeEntry Color="20000000">
       <Description>Change of cmp dword ptr [rcx+0000011C],00</Description>
       <AddressString>NSUNS4.exe+AB4790</AddressString>
       <Before>
@@ -190,7 +490,7 @@
         <Byte>18</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="80000008">
+    <CodeEntry Color="20000000">
       <Description>Change of cmp dword ptr [rbx+00000118],00</Description>
       <AddressString>NSUNS4.exe+AB4886</AddressString>
       <Before>
@@ -217,7 +517,7 @@
         <Byte>8B</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="80000008">
+    <CodeEntry Color="20000000">
       <Description>Change of cmp dword ptr [rcx+0000011C],00</Description>
       <AddressString>NSUNS4.exe+AB4760</AddressString>
       <Before>
@@ -244,7 +544,7 @@
         <Byte>18</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="80000008">
+    <CodeEntry Color="20000000">
       <Description>Change of cmp dword ptr [rcx+00000118],00</Description>
       <AddressString>NSUNS4.exe+AB4769</AddressString>
       <Before>
@@ -269,6 +569,128 @@
         <Byte>C7</Byte>
         <Byte>81</Byte>
         <Byte>18</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [rdi+000001D0],ebx</Description>
+      <AddressString>NSUNS4.exe+5AF866</AddressString>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>4F</Byte>
+        <Byte>18</Byte>
+        <Byte>8B</Byte>
+        <Byte>D3</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>9F</Byte>
+        <Byte>D0</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>E8</Byte>
+        <Byte>C3</Byte>
+        <Byte>F1</Byte>
+        <Byte>0B</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [rcx+18],rax</Description>
+      <AddressString>NSUNS4.exe+8083A8</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>89</Byte>
+        <Byte>41</Byte>
+        <Byte>08</Byte>
+      </Before>
+      <Actual>
+        <Byte>48</Byte>
+        <Byte>89</Byte>
+        <Byte>41</Byte>
+        <Byte>18</Byte>
+      </Actual>
+      <After>
+        <Byte>89</Byte>
+        <Byte>41</Byte>
+        <Byte>20</Byte>
+        <Byte>48</Byte>
+        <Byte>89</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of sub [rbx+18],rax</Description>
+      <AddressString>NSUNS4.exe+808402</AddressString>
+      <Before>
+        <Byte>2B</Byte>
+        <Byte>43</Byte>
+        <Byte>10</Byte>
+        <Byte>74</Byte>
+        <Byte>13</Byte>
+      </Before>
+      <Actual>
+        <Byte>48</Byte>
+        <Byte>29</Byte>
+        <Byte>43</Byte>
+        <Byte>18</Byte>
+      </Actual>
+      <After>
+        <Byte>EB</Byte>
+        <Byte>0D</Byte>
+        <Byte>8B</Byte>
+        <Byte>43</Byte>
+        <Byte>10</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [rcx+10],rax</Description>
+      <AddressString>NSUNS4.exe+8083AF</AddressString>
+      <Before>
+        <Byte>41</Byte>
+        <Byte>18</Byte>
+        <Byte>89</Byte>
+        <Byte>41</Byte>
+        <Byte>20</Byte>
+      </Before>
+      <Actual>
+        <Byte>48</Byte>
+        <Byte>89</Byte>
+        <Byte>41</Byte>
+        <Byte>10</Byte>
+      </Actual>
+      <After>
+        <Byte>C3</Byte>
+        <Byte>69</Byte>
+        <Byte>C2</Byte>
+        <Byte>40</Byte>
+        <Byte>42</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry Color="20000000">
+      <Description>Change of mov [rbx+10],rdx</Description>
+      <AddressString>NSUNS4.exe+808388</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>83</Byte>
+        <Byte>63</Byte>
+        <Byte>24</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>48</Byte>
+        <Byte>89</Byte>
+        <Byte>53</Byte>
+        <Byte>10</Byte>
+      </Actual>
+      <After>
+        <Byte>48</Byte>
+        <Byte>83</Byte>
+        <Byte>C4</Byte>
+        <Byte>20</Byte>
+        <Byte>5B</Byte>
       </After>
     </CodeEntry>
   </CheatCodes>
