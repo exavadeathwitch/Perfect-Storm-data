@@ -34,20 +34,20 @@
       <Address/>
       <CheatEntries>
         <CheatEntry>
+          <ID>40</ID>
+          <Description>"FPS Setting"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>0000FF</Color>
+          <VariableType>Byte</VariableType>
+          <Address>NSUNS4.exe+1561138</Address>
+        </CheatEntry>
+        <CheatEntry>
           <ID>4</ID>
           <Description>"Global Speed"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
           <VariableType>Float</VariableType>
           <Address>NSUNS4.exe+161A334</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>5</ID>
-          <Description>"Is the Game In Focus"</Description>
-          <ShowAsSigned>0</ShowAsSigned>
-          <Color>0000FF</Color>
-          <VariableType>4 Bytes</VariableType>
-          <Address>NSUNS4.exe+16BDAE8</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>3</ID>
@@ -66,10 +66,18 @@
           <Address>NSUNS4.exe+161FFEC</Address>
         </CheatEntry>
         <CheatEntry>
+          <ID>5</ID>
+          <Description>"Is the Game In Focus"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>0000FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>NSUNS4.exe+16BDAE8</Address>
+        </CheatEntry>
+        <CheatEntry>
           <ID>15</ID>
           <Description>"Presets"</Description>
           <Options moManualExpandCollapse="1"/>
-          <LastState Value="" RealAddress="7FF77A5A6D40"/>
+          <LastState Value="" RealAddress="7FF67B596D40"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>FF8000</Color>
           <GroupHeader>1</GroupHeader>
