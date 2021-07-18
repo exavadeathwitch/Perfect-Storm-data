@@ -38,7 +38,7 @@
                   <ID>45</ID>
                   <Description>"P"</Description>
                   <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-                  <LastState RealAddress="274FE240540"/>
+                  <LastState RealAddress="00000000"/>
                   <Color>FF0000</Color>
                   <VariableType>String</VariableType>
                   <Length>0</Length>
@@ -59,7 +59,6 @@
                     <CheatEntry>
                       <ID>318</ID>
                       <Description>"X-Axis"</Description>
-                      <LastState Value="-4222.389648" RealAddress="274FE240540"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+0</Address>
@@ -67,7 +66,6 @@
                     <CheatEntry>
                       <ID>62</ID>
                       <Description>"Y-Axis"</Description>
-                      <LastState Value="-342.5603027" RealAddress="274FE240544"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+4</Address>
@@ -75,7 +73,6 @@
                     <CheatEntry>
                       <ID>63</ID>
                       <Description>"Z-Axis"</Description>
-                      <LastState Value="-8.447263099E-6" RealAddress="274FE240548"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+8</Address>
@@ -83,7 +80,6 @@
                     <CheatEntry>
                       <ID>64</ID>
                       <Description>"Gravity Track?"</Description>
-                      <LastState Value="0" RealAddress="274FE240620"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+e0</Address>
@@ -91,7 +87,6 @@
                     <CheatEntry>
                       <ID>65</ID>
                       <Description>"Attack Momentum?"</Description>
-                      <LastState Value="0" RealAddress="274FE240624"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+e4</Address>
@@ -99,7 +94,6 @@
                     <CheatEntry>
                       <ID>66</ID>
                       <Description>"Gravity Constant"</Description>
-                      <LastState Value="3.599999905" RealAddress="274FE240628"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+e8</Address>
@@ -107,7 +101,6 @@
                     <CheatEntry>
                       <ID>67</ID>
                       <Description>"Z-Momentum"</Description>
-                      <LastState Value="0" RealAddress="274FE24062C"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+ec</Address>
@@ -115,7 +108,6 @@
                     <CheatEntry>
                       <ID>284</ID>
                       <Description>"Current X Momentum"</Description>
-                      <LastState Value="0" RealAddress="274FE240634"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+F4</Address>
@@ -123,7 +115,6 @@
                     <CheatEntry>
                       <ID>290</ID>
                       <Description>"Current X Constant"</Description>
-                      <LastState Value="0" RealAddress="274FE240638"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+F8</Address>
@@ -131,7 +122,6 @@
                     <CheatEntry>
                       <ID>289</ID>
                       <Description>"Previous X Momentum"</Description>
-                      <LastState Value="0" RealAddress="274FE240660"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+120</Address>
@@ -139,7 +129,6 @@
                     <CheatEntry>
                       <ID>285</ID>
                       <Description>"Previous X Constant"</Description>
-                      <LastState Value="0" RealAddress="274FE240664"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+124</Address>
@@ -147,7 +136,6 @@
                     <CheatEntry>
                       <ID>115</ID>
                       <Description>"Model Scale"</Description>
-                      <LastState Value="1" RealAddress="274FE2406D0"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+190</Address>
@@ -155,56 +143,48 @@
                     <CheatEntry>
                       <ID>471</ID>
                       <Description>"Left Stick Zone"</Description>
-                      <LastState Value="0" RealAddress="274FE2406F0"/>
                       <VariableType>Float</VariableType>
                       <Address>+1B0</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>470</ID>
                       <Description>"Left Stick Zone"</Description>
-                      <LastState Value="0" RealAddress="274FE2406F4"/>
                       <VariableType>Float</VariableType>
                       <Address>+1B4</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>468</ID>
                       <Description>"Left Stick Direction"</Description>
-                      <LastState Value="0" RealAddress="274FE2406F9"/>
                       <VariableType>Byte</VariableType>
                       <Address>+1B9</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>469</ID>
                       <Description>"Left Stick Direction 2"</Description>
-                      <LastState Value="0" RealAddress="274FE2406FD"/>
                       <VariableType>Byte</VariableType>
                       <Address>+1BD</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>473</ID>
                       <Description>"Right Stick Zone"</Description>
-                      <LastState Value="0" RealAddress="274FE2407F8"/>
                       <VariableType>Float</VariableType>
                       <Address>+1B0+108</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>474</ID>
                       <Description>"Right Stick Zone"</Description>
-                      <LastState Value="0" RealAddress="274FE2407FC"/>
                       <VariableType>Float</VariableType>
                       <Address>+1B4+108</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>475</ID>
                       <Description>"Right Stick Direction"</Description>
-                      <LastState Value="0" RealAddress="274FE240801"/>
                       <VariableType>Byte</VariableType>
                       <Address>+1B9+108</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>476</ID>
                       <Description>"Right Stick Direction 2"</Description>
-                      <LastState Value="0" RealAddress="274FE240805"/>
                       <VariableType>Byte</VariableType>
                       <Address>+1BD+108</Address>
                     </CheatEntry>
@@ -212,96 +192,84 @@
                       <ID>427</ID>
                       <Description>"Player Input Pointer"</Description>
                       <Options moManualExpandCollapse="1"/>
-                      <LastState Value="0" RealAddress="274FE240758"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
-                      <Address>+218</Address>
+                      <Address>+218-70</Address>
                       <CheatEntries>
                         <CheatEntry>
                           <ID>431</ID>
                           <Description>"Unknown"</Description>
-                          <LastState Value="0" RealAddress="274FE240B50"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+3F8</Address>
+                          <Address>+3F8+70</Address>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>435</ID>
                           <Description>"Unknown"</Description>
-                          <LastState Value="0" RealAddress="274FE240B54"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+3FC</Address>
+                          <Address>+3FC+70</Address>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>438</ID>
                           <Description>"Unknown"</Description>
-                          <LastState Value="0" RealAddress="274FE240B58"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+400</Address>
+                          <Address>+400+70</Address>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>444</ID>
                           <Description>"Unknown"</Description>
-                          <LastState Value="0" RealAddress="274FE240B5C"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+404</Address>
+                          <Address>+404+70</Address>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>445</ID>
                           <Description>"Unknown"</Description>
-                          <LastState Value="0" RealAddress="274FE240B60"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+408</Address>
+                          <Address>+408+70</Address>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>428</ID>
                           <Description>"Unknown"</Description>
-                          <LastState Value="0" RealAddress="274FE240B64"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+40C</Address>
+                          <Address>+40C+70</Address>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>429</ID>
                           <Description>"Unknown"</Description>
-                          <LastState Value="0" RealAddress="274FE240CDC"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+584</Address>
+                          <Address>+584+70</Address>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>430</ID>
                           <Description>"Right Stick Input"</Description>
-                          <LastState Value="0" RealAddress="274FE240CE0"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+588</Address>
+                          <Address>+588+70</Address>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>434</ID>
                           <Description>"Unknown"</Description>
-                          <LastState Value="0" RealAddress="274FE240CE4"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+58C</Address>
+                          <Address>+58C+70</Address>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>432</ID>
                           <Description>"Held Down Input"</Description>
                           <Options moManualExpandCollapse="1"/>
-                          <LastState Value="0" RealAddress="274FE240CE8"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+590</Address>
+                          <Address>+590+70</Address>
                           <CheatEntries>
                             <CheatEntry>
                               <ID>446</ID>
                               <Description>"Button"</Description>
-                              <LastState Value="0" RealAddress="274FE240CE8"/>
                               <Color>FF0000</Color>
                               <VariableType>2 Bytes</VariableType>
                               <Address>+0</Address>
@@ -309,7 +277,6 @@
                             <CheatEntry>
                               <ID>447</ID>
                               <Description>"Left Stick"</Description>
-                              <LastState Value="0" RealAddress="274FE240CEA"/>
                               <Color>FF0000</Color>
                               <VariableType>Byte</VariableType>
                               <Address>+2</Address>
@@ -317,7 +284,6 @@
                             <CheatEntry>
                               <ID>448</ID>
                               <Description>"Right Stick"</Description>
-                              <LastState Value="0" RealAddress="274FE240CEB"/>
                               <Color>FF0000</Color>
                               <VariableType>Byte</VariableType>
                               <Address>+3</Address>
@@ -327,24 +293,21 @@
                         <CheatEntry>
                           <ID>433</ID>
                           <Description>"Unknown"</Description>
-                          <LastState Value="0" RealAddress="274FE240CEC"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+594</Address>
+                          <Address>+594+70</Address>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>436</ID>
                           <Description>"Instant Input"</Description>
                           <Options moManualExpandCollapse="1"/>
-                          <LastState Value="0" RealAddress="274FE240CF0"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+598</Address>
+                          <Address>+598+70</Address>
                           <CheatEntries>
                             <CheatEntry>
                               <ID>449</ID>
                               <Description>"Button"</Description>
-                              <LastState Value="0" RealAddress="274FE240CF0"/>
                               <Color>FF0000</Color>
                               <VariableType>2 Bytes</VariableType>
                               <Address>+0</Address>
@@ -352,7 +315,6 @@
                             <CheatEntry>
                               <ID>450</ID>
                               <Description>"Left Stick"</Description>
-                              <LastState Value="0" RealAddress="274FE240CF2"/>
                               <Color>FF0000</Color>
                               <VariableType>Byte</VariableType>
                               <Address>+2</Address>
@@ -360,7 +322,6 @@
                             <CheatEntry>
                               <ID>451</ID>
                               <Description>"Right Stick"</Description>
-                              <LastState Value="0" RealAddress="274FE240CF3"/>
                               <Color>FF0000</Color>
                               <VariableType>Byte</VariableType>
                               <Address>+3</Address>
@@ -370,24 +331,21 @@
                         <CheatEntry>
                           <ID>437</ID>
                           <Description>"Unknown"</Description>
-                          <LastState Value="0" RealAddress="274FE240CF4"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+59C</Address>
+                          <Address>+59C+70</Address>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>439</ID>
                           <Description>"Instant then Held Input"</Description>
                           <Options moManualExpandCollapse="1"/>
-                          <LastState Value="0" RealAddress="274FE240CF8"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+5A0</Address>
+                          <Address>+5A0+70</Address>
                           <CheatEntries>
                             <CheatEntry>
                               <ID>452</ID>
                               <Description>"Button"</Description>
-                              <LastState Value="0" RealAddress="274FE240CF8"/>
                               <Color>FF0000</Color>
                               <VariableType>2 Bytes</VariableType>
                               <Address>+0</Address>
@@ -395,7 +353,6 @@
                             <CheatEntry>
                               <ID>453</ID>
                               <Description>"Left Stick"</Description>
-                              <LastState Value="0" RealAddress="274FE240CFA"/>
                               <Color>FF0000</Color>
                               <VariableType>Byte</VariableType>
                               <Address>+2</Address>
@@ -403,7 +360,6 @@
                             <CheatEntry>
                               <ID>454</ID>
                               <Description>"Right Stick"</Description>
-                              <LastState Value="0" RealAddress="274FE240CFB"/>
                               <Color>FF0000</Color>
                               <VariableType>Byte</VariableType>
                               <Address>+3</Address>
@@ -413,33 +369,29 @@
                         <CheatEntry>
                           <ID>440</ID>
                           <Description>"Unknown"</Description>
-                          <LastState Value="0" RealAddress="274FE240D30"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+5D8</Address>
+                          <Address>+5D8+70</Address>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>441</ID>
                           <Description>"Unknown"</Description>
-                          <LastState Value="0" RealAddress="274FE240D40"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+5E8</Address>
+                          <Address>+5E8+70</Address>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>442</ID>
                           <Description>"Unknown"</Description>
-                          <LastState Value="0" RealAddress="274FE240D50"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
-                          <Address>+5F8</Address>
+                          <Address>+5F8+70</Address>
                         </CheatEntry>
                       </CheatEntries>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>413</ID>
                       <Description>"Rotation"</Description>
-                      <LastState Value="1" RealAddress="274FE240574"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+34</Address>
@@ -447,7 +399,6 @@
                     <CheatEntry>
                       <ID>414</ID>
                       <Description>"Rotation 2"</Description>
-                      <LastState Value="0.5140170455" RealAddress="274FE240578"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+38</Address>
@@ -455,15 +406,31 @@
                     <CheatEntry>
                       <ID>415</ID>
                       <Description>"Rotation 3"</Description>
-                      <LastState Value="-0.8577799797" RealAddress="274FE24057C"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+3C</Address>
                     </CheatEntry>
                     <CheatEntry>
+                      <ID>487</ID>
+                      <Description>"Right Stick Direction 2"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+A90</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>488</ID>
+                      <Description>"Right Stick Direction 2"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+A92</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>490</ID>
+                      <Description>"Support Order"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+A98</Address>
+                    </CheatEntry>
+                    <CheatEntry>
                       <ID>260</ID>
                       <Description>"Controls Toggle"</Description>
-                      <LastState Value="1" RealAddress="274FE24117C"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+C3C</Address>
@@ -471,7 +438,6 @@
                     <CheatEntry>
                       <ID>222</ID>
                       <Description>"Moveset State"</Description>
-                      <LastState Value="0" RealAddress="274FE24118C"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+C4C</Address>
@@ -483,7 +449,6 @@
 92444944: Madara Tilt
 122788112: Awakening
 </DropDownList>
-                      <LastState Value="1955" RealAddress="274FE3ABD98"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+16B858</Address>
@@ -491,7 +456,6 @@
                     <CheatEntry>
                       <ID>68</ID>
                       <Description>"Current Player State"</Description>
-                      <LastState Value="1" RealAddress="274FE241190"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+c50</Address>
@@ -499,7 +463,6 @@
                     <CheatEntry>
                       <ID>261</ID>
                       <Description>"Previous Player State"</Description>
-                      <LastState Value="3" RealAddress="274FE241194"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+c54</Address>
@@ -507,7 +470,6 @@
                     <CheatEntry>
                       <ID>262</ID>
                       <Description>"New Player State"</Description>
-                      <LastState Value="0" RealAddress="274FE241198"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+c58</Address>
@@ -533,7 +495,7 @@
                           <Keys>
                             <Key>50</Key>
                           </Keys>
-                          <Value>77</Value>
+                          <Value>150</Value>
                           <ID>2</ID>
                         </Hotkey>
                       </Hotkeys>
@@ -541,7 +503,6 @@
                     <CheatEntry>
                       <ID>263</ID>
                       <Description>"Is Player State Available"</Description>
-                      <LastState Value="0" RealAddress="274FE2411AC"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+C6C</Address>
@@ -575,7 +536,6 @@
                     <CheatEntry>
                       <ID>100</ID>
                       <Description>"Character Code"</Description>
-                      <LastState Value="45" RealAddress="274FE24115C"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+C1C</Address>
@@ -583,7 +543,6 @@
                     <CheatEntry>
                       <ID>114</ID>
                       <Description>"Enable Character"</Description>
-                      <LastState Value="1" RealAddress="274FE241178"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+C38</Address>
@@ -591,7 +550,6 @@
                     <CheatEntry>
                       <ID>113</ID>
                       <Description>"Can Control Character"</Description>
-                      <LastState Value="1" RealAddress="274FE24117C"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+C3C</Address>
@@ -599,7 +557,6 @@
                     <CheatEntry>
                       <ID>112</ID>
                       <Description>"Enable Animations"</Description>
-                      <LastState Value="1" RealAddress="274FE241180"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+C40</Address>
@@ -607,23 +564,35 @@
                     <CheatEntry>
                       <ID>111</ID>
                       <Description>"Display Mdl"</Description>
-                      <LastState Value="1" RealAddress="274FE241188"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+C48</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>408</ID>
-                      <Description>"No description"</Description>
-                      <LastState Value="0" RealAddress="274FE241520"/>
+                      <Description>"Priority 1"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
                       <VariableType>4 Bytes</VariableType>
-                      <Address>+FE0</Address>
+                      <Address>+1403C-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>489</ID>
+                      <Description>"Priority 2"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14044-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>417</ID>
+                      <Description>"Charged Dash"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14A20</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>69</ID>
                       <Description>"Attack ID"</Description>
-                      <LastState Value="74" RealAddress="274FE241550"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+1010</Address>
@@ -631,7 +600,6 @@
                     <CheatEntry>
                       <ID>281</ID>
                       <Description>"Previous Attack ID"</Description>
-                      <LastState Value="78" RealAddress="274FE241564"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+1024</Address>
@@ -639,7 +607,6 @@
                     <CheatEntry>
                       <ID>127</ID>
                       <Description>"Attack ID"</Description>
-                      <LastState Value="0" RealAddress="274FE404A10"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+1C44D0</Address>
@@ -647,7 +614,6 @@
                     <CheatEntry>
                       <ID>124</ID>
                       <Description>"Attack ID Allowed"</Description>
-                      <LastState Value="0" RealAddress="274FE241554"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+1014</Address>
@@ -655,14 +621,12 @@
                     <CheatEntry>
                       <ID>416</ID>
                       <Description>"Sub Timer"</Description>
-                      <LastState Value="420" RealAddress="274FE254FD8"/>
                       <VariableType>Float</VariableType>
                       <Address>+14A98</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>71</ID>
                       <Description>"ANM Speed"</Description>
-                      <LastState Value="1" RealAddress="274FE241560"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+1020</Address>
@@ -670,7 +634,6 @@
                     <CheatEntry>
                       <ID>110</ID>
                       <Description>"Movement Speed"</Description>
-                      <LastState Value="1" RealAddress="274FE254644"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+14104</Address>
@@ -678,7 +641,6 @@
                     <CheatEntry>
                       <ID>219</ID>
                       <Description>"ANM Timer"</Description>
-                      <LastState Value="49" RealAddress="274FE254678"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+14138</Address>
@@ -686,7 +648,6 @@
                     <CheatEntry>
                       <ID>72</ID>
                       <Description>"Guard HP"</Description>
-                      <LastState Value="25" RealAddress="274FE254F30"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+149F0</Address>
@@ -694,7 +655,6 @@
                     <CheatEntry>
                       <ID>73</ID>
                       <Description>"Max Guard HP"</Description>
-                      <LastState Value="25" RealAddress="274FE254F34"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+149F4</Address>
@@ -702,24 +662,14 @@
                     <CheatEntry>
                       <ID>74</ID>
                       <Description>"Guard HP???"</Description>
-                      <LastState Value="25" RealAddress="274FE254F38"/>
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+149F8</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>417</ID>
-                      <Description>"Charged Dash"</Description>
-                      <LastState Value="0" RealAddress="274FE254F60"/>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+14A20</Address>
-                    </CheatEntry>
-                    <CheatEntry>
                       <ID>61</ID>
                       <Description>"??? (Pointer)"</Description>
-                      <LastState RealAddress="2748122CCE0"/>
+                      <LastState RealAddress="00000000"/>
                       <Color>FF0000</Color>
                       <VariableType>String</VariableType>
                       <Length>0</Length>
@@ -734,7 +684,6 @@
                         <CheatEntry>
                           <ID>319</ID>
                           <Description>"Leader Switch Cost"</Description>
-                          <LastState Value="50" RealAddress="2748122CCF0"/>
                           <Color>FF0000</Color>
                           <VariableType>Float</VariableType>
                           <Address>+10</Address>
@@ -748,7 +697,6 @@
 617031360: Awakening
 616050112: Awake Recovery
 </DropDownList>
-                      <LastState Value="0" RealAddress="274FE258A58"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+18518</Address>
@@ -760,7 +708,6 @@
 617031360: Awakening
 616050112: Awake Recovery
 </DropDownList>
-                      <LastState Value="0" RealAddress="274FE258A80"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+18540</Address>
@@ -772,15 +719,105 @@
 617031360: Awakening
 616050112: Awake Recovery
 </DropDownList>
-                      <LastState Value="0" RealAddress="274FE258A88"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+18548</Address>
                     </CheatEntry>
                     <CheatEntry>
+                      <ID>477</ID>
+                      <Description>"BlackState"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14C60-70</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>97</Key>
+                          </Keys>
+                          <Value>1</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>96</Key>
+                          </Keys>
+                          <Value>0</Value>
+                          <ID>1</ID>
+                        </Hotkey>
+                      </Hotkeys>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>478</ID>
+                      <Description>"isActiveLeader?"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14C64-70</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>97</Key>
+                          </Keys>
+                          <Value>0</Value>
+                          <ID>0</ID>
+                          <ActivateSound>Activate</ActivateSound>
+                        </Hotkey>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>96</Key>
+                          </Keys>
+                          <Value>1</Value>
+                          <ID>1</ID>
+                          <ActivateSound>Deactivate</ActivateSound>
+                        </Hotkey>
+                      </Hotkeys>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>479</ID>
+                      <Description>"switch-in red outline"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14CC0-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>480</ID>
+                      <Description>"combo/tilt/support related"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+14D70-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>481</ID>
+                      <Description>"cDash startup frame"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+14A24</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>485</ID>
+                      <Description>"in Air cDash"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14AE0-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>483</ID>
+                      <Description>"in Ground Spark"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+14AE4-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>486</ID>
+                      <Description>"in Air Spark"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14AE8-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>484</ID>
+                      <Description>"in Air cDash (+startup)"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14AEC-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
                       <ID>409</ID>
                       <Description>"Item Being Used"</Description>
-                      <LastState Value="4294967295" RealAddress="274FE255ACC"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
@@ -789,7 +826,6 @@
                     <CheatEntry>
                       <ID>234</ID>
                       <Description>"Orbs 1"</Description>
-                      <LastState Value="0" RealAddress="274FE3AD83C"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+16D2FC</Address>
@@ -797,7 +833,6 @@
                     <CheatEntry>
                       <ID>236</ID>
                       <Description>"Orbs 2"</Description>
-                      <LastState Value="0" RealAddress="274FE3AEDBC"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+16E87C</Address>
@@ -805,7 +840,6 @@
                     <CheatEntry>
                       <ID>235</ID>
                       <Description>"Orbs True"</Description>
-                      <LastState Value="0" RealAddress="274FE3B112C"/>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+170BEC</Address>
@@ -814,7 +848,6 @@
                       <ID>418</ID>
                       <Description>"Partner S"</Description>
                       <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-                      <LastState Value="0" RealAddress="274FE3AC420"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <Color>4080FF</Color>
                       <VariableType>Float</VariableType>
@@ -823,7 +856,6 @@
                         <CheatEntry>
                           <ID>60</ID>
                           <Description>"X-Axis"</Description>
-                          <LastState Value="0" RealAddress="274FE3AC420"/>
                           <Color>FF0000</Color>
                           <VariableType>Float</VariableType>
                           <Address>+0</Address>
@@ -831,7 +863,6 @@
                         <CheatEntry>
                           <ID>419</ID>
                           <Description>"Y-Axis"</Description>
-                          <LastState Value="0" RealAddress="274FE3AC424"/>
                           <Color>FF0000</Color>
                           <VariableType>Float</VariableType>
                           <Address>+4</Address>
@@ -839,7 +870,6 @@
                         <CheatEntry>
                           <ID>420</ID>
                           <Description>"Z-Axis"</Description>
-                          <LastState Value="0" RealAddress="274FE3AC428"/>
                           <Color>FF0000</Color>
                           <VariableType>Float</VariableType>
                           <Address>+8</Address>
@@ -847,7 +877,6 @@
                         <CheatEntry>
                           <ID>421</ID>
                           <Description>"Gravity Track?"</Description>
-                          <LastState Value="0" RealAddress="274FE3AC500"/>
                           <Color>FF0000</Color>
                           <VariableType>Float</VariableType>
                           <Address>+e0</Address>
@@ -855,7 +884,6 @@
                         <CheatEntry>
                           <ID>422</ID>
                           <Description>"Attack Momentum?"</Description>
-                          <LastState Value="0" RealAddress="274FE3AC504"/>
                           <Color>FF0000</Color>
                           <VariableType>Float</VariableType>
                           <Address>+e4</Address>
@@ -863,7 +891,6 @@
                         <CheatEntry>
                           <ID>423</ID>
                           <Description>"Gravity Constant"</Description>
-                          <LastState Value="0" RealAddress="274FE3AC508"/>
                           <Color>FF0000</Color>
                           <VariableType>Float</VariableType>
                           <Address>+E8</Address>
@@ -871,7 +898,6 @@
                         <CheatEntry>
                           <ID>424</ID>
                           <Description>"Gravity"</Description>
-                          <LastState Value="0" RealAddress="274FE3AC50C"/>
                           <Color>FF0000</Color>
                           <VariableType>Float</VariableType>
                           <Address>+ec</Address>
@@ -879,7 +905,6 @@
                         <CheatEntry>
                           <ID>107</ID>
                           <Description>"CharaCode"</Description>
-                          <LastState Value="0" RealAddress="274FE3AD03C"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
                           <Address>+C1C</Address>
@@ -887,7 +912,6 @@
                         <CheatEntry>
                           <ID>108</ID>
                           <Description>"CharacterState"</Description>
-                          <LastState Value="0" RealAddress="274FE3AD070"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
                           <Address>+C50</Address>
@@ -895,7 +919,6 @@
                         <CheatEntry>
                           <ID>109</ID>
                           <Description>"Previous CharacterState"</Description>
-                          <LastState Value="32762" RealAddress="274FE3AD074"/>
                           <ShowAsSigned>0</ShowAsSigned>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
@@ -904,7 +927,6 @@
                         <CheatEntry>
                           <ID>425</ID>
                           <Description>"New Player State"</Description>
-                          <LastState Value="0" RealAddress="274FE3AD078"/>
                           <ShowAsSigned>0</ShowAsSigned>
                           <VariableType>4 Bytes</VariableType>
                           <Address>+C58</Address>
@@ -922,7 +944,6 @@
                         <CheatEntry>
                           <ID>426</ID>
                           <Description>"Enable Player State"</Description>
-                          <LastState Value="0" RealAddress="274FE3AD08C"/>
                           <ShowAsSigned>0</ShowAsSigned>
                           <VariableType>4 Bytes</VariableType>
                           <Address>+C6C</Address>
@@ -940,7 +961,6 @@
                         <CheatEntry>
                           <ID>101</ID>
                           <Description>"Attack ID"</Description>
-                          <LastState Value="1095582020" RealAddress="274FE3AD430"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
                           <Address>+1010</Address>
@@ -948,7 +968,6 @@
                         <CheatEntry>
                           <ID>52</ID>
                           <Description>"Previous Attack ID"</Description>
-                          <LastState Value="1229217614" RealAddress="274FE3AD444"/>
                           <Color>FF0000</Color>
                           <VariableType>4 Bytes</VariableType>
                           <Address>+1024</Address>
@@ -956,7 +975,6 @@
                         <CheatEntry>
                           <ID>49</ID>
                           <Description>"ANM Speed"</Description>
-                          <LastState Value="816212.125" RealAddress="274FE3AD440"/>
                           <Color>FF0000</Color>
                           <VariableType>Float</VariableType>
                           <Address>+1020</Address>
@@ -964,7 +982,6 @@
                         <CheatEntry>
                           <ID>55</ID>
                           <Description>"Guard HP"</Description>
-                          <LastState Value="2.350988982E-38" RealAddress="274FE3C0E10"/>
                           <Color>FF0000</Color>
                           <VariableType>Float</VariableType>
                           <Address>+149F0</Address>
@@ -972,7 +989,6 @@
                         <CheatEntry>
                           <ID>58</ID>
                           <Description>"Max Guard HP"</Description>
-                          <LastState Value="1.401298464E-45" RealAddress="274FE3C0E14"/>
                           <Color>FF0000</Color>
                           <VariableType>Float</VariableType>
                           <Address>+149F4</Address>
@@ -980,7 +996,6 @@
                         <CheatEntry>
                           <ID>57</ID>
                           <Description>"Guard HP???"</Description>
-                          <LastState Value="1.163077725E-43" RealAddress="274FE3C0E18"/>
                           <Color>FF0000</Color>
                           <VariableType>Float</VariableType>
                           <Address>+149F8</Address>
@@ -1007,7 +1022,6 @@
         <CheatEntry>
           <ID>40</ID>
           <Description>"FPS Setting"</Description>
-          <LastState Value="30" RealAddress="7FF654E01138"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
           <VariableType>Byte</VariableType>
@@ -1016,7 +1030,6 @@
         <CheatEntry>
           <ID>4</ID>
           <Description>"Global Speed"</Description>
-          <LastState Value="1" RealAddress="7FF654EBA334"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
           <VariableType>Float</VariableType>
@@ -1025,7 +1038,6 @@
         <CheatEntry>
           <ID>3</ID>
           <Description>"Music Volume"</Description>
-          <LastState Value="20" RealAddress="7FF654EBFEEA"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
           <VariableType>Byte</VariableType>
@@ -1034,7 +1046,6 @@
         <CheatEntry>
           <ID>0</ID>
           <Description>"Ryo"</Description>
-          <LastState Value="9999999" RealAddress="7FF654EBFFEC"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
@@ -1043,7 +1054,6 @@
         <CheatEntry>
           <ID>5</ID>
           <Description>"Is the Game In Focus"</Description>
-          <LastState Value="0" RealAddress="7FF654F5DAE8"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
@@ -1313,9 +1323,14 @@
     <CheatEntry>
       <ID>472</ID>
       <Description>"No description"</Description>
-      <LastState Value="2425393296" RealAddress="7FF6540602F2"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"NSUNS4.exe"+7BF6F2+c00</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>491</ID>
+      <Description>"No description"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>20D765E0540-70+B08</Address>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
@@ -2168,6 +2183,89 @@
         <Byte>90</Byte>
         <Byte>90</Byte>
         <Byte>48</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of and [rbx+00014C60],edi</Description>
+      <AddressString>NSUNS4.exe+575FDC</AddressString>
+      <Before>
+        <Byte>BB</Byte>
+        <Byte>10</Byte>
+        <Byte>4C</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>CC</Byte>
+        <Byte>BB</Byte>
+        <Byte>60</Byte>
+        <Byte>4C</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>83</Byte>
+        <Byte>F8</Byte>
+        <Byte>6B</Byte>
+        <Byte>74</Byte>
+        <Byte>0B</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of and dword ptr [rbx+00014C60],00</Description>
+      <AddressString>NSUNS4.exe+7E8B22</AddressString>
+      <Before>
+        <Byte>10</Byte>
+        <Byte>4C</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>83</Byte>
+        <Byte>A3</Byte>
+        <Byte>60</Byte>
+        <Byte>4C</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>E9</Byte>
+        <Byte>B9</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [rcx+00014C60],00000001</Description>
+      <AddressString>NSUNS4.exe+57789E</AddressString>
+      <Before>
+        <Byte>89</Byte>
+        <Byte>40</Byte>
+        <Byte>4C</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+      </Before>
+      <Actual>
+        <Byte>C7</Byte>
+        <Byte>81</Byte>
+        <Byte>60</Byte>
+        <Byte>4C</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>89</Byte>
+        <Byte>91</Byte>
+        <Byte>64</Byte>
+        <Byte>4C</Byte>
+        <Byte>01</Byte>
       </After>
     </CodeEntry>
   </CheatCodes>
