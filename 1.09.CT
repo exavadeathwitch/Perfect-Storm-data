@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="29">
+<CheatTable CheatEngineTableVersion="34">
   <CheatEntries>
     <CheatEntry>
       <ID>39</ID>
@@ -64,13 +64,6 @@
                       <Address>+0</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>62</ID>
-                      <Description>"Y-Axis"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>Float</VariableType>
-                      <Address>+4</Address>
-                    </CheatEntry>
-                    <CheatEntry>
                       <ID>63</ID>
                       <Description>"Z-Axis"</Description>
                       <Color>FF0000</Color>
@@ -90,13 +83,6 @@
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+e4</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>66</ID>
-                      <Description>"Gravity Constant"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>Float</VariableType>
-                      <Address>+e8</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>67</ID>
@@ -132,13 +118,6 @@
                       <Color>FF0000</Color>
                       <VariableType>Float</VariableType>
                       <Address>+124</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>115</ID>
-                      <Description>"Model Scale"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>Float</VariableType>
-                      <Address>+190</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>471</ID>
@@ -187,6 +166,634 @@
                       <Description>"Right Stick Direction 2"</Description>
                       <VariableType>Byte</VariableType>
                       <Address>+1BD+108</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>490</ID>
+                      <Description>"Support Order"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+A98</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>222</ID>
+                      <Description>"Moveset State"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+C4C</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>262</ID>
+                      <Description>"New Player State"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+c58</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Increase Value</Action>
+                          <Keys>
+                            <Key>22551</Key>
+                          </Keys>
+                          <Value>1</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                        <Hotkey>
+                          <Action>Decrease Value</Action>
+                          <Keys>
+                            <Key>22550</Key>
+                          </Keys>
+                          <Value>1</Value>
+                          <ID>1</ID>
+                        </Hotkey>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>50</Key>
+                          </Keys>
+                          <Value>150</Value>
+                          <ID>2</ID>
+                        </Hotkey>
+                      </Hotkeys>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>263</ID>
+                      <Description>"Is Player State Available"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+C6C</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>22551</Key>
+                          </Keys>
+                          <Value>1</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>22550</Key>
+                          </Keys>
+                          <Value>1</Value>
+                          <ID>1</ID>
+                        </Hotkey>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>50</Key>
+                          </Keys>
+                          <Value>1</Value>
+                          <ID>2</ID>
+                        </Hotkey>
+                      </Hotkeys>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>408</ID>
+                      <Description>"Priority 1"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+1403C-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>489</ID>
+                      <Description>"Priority 2"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14044-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>417</ID>
+                      <Description>"Charged Dash"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14A20</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>127</ID>
+                      <Description>"Attack ID"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+1C44D0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>61</ID>
+                      <Description>"??? (Pointer)"</Description>
+                      <LastState RealAddress="00000000"/>
+                      <Color>FF0000</Color>
+                      <VariableType>String</VariableType>
+                      <Length>0</Length>
+                      <Unicode>0</Unicode>
+                      <CodePage>0</CodePage>
+                      <ZeroTerminate>0</ZeroTerminate>
+                      <Address>+14E20</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                      </Offsets>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>319</ID>
+                          <Description>"Leader Switch Cost"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>Float</VariableType>
+                          <Address>+10</Address>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>225</ID>
+                      <Description>"Awake Increment"</Description>
+                      <DropDownList DisplayValueAsItem="1">611355264: Normal
+617031360: Awakening
+616050112: Awake Recovery
+</DropDownList>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+18518</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>227</ID>
+                      <Description>"Buff Status"</Description>
+                      <DropDownList DisplayValueAsItem="1">611355264: Normal
+617031360: Awakening
+616050112: Awake Recovery
+</DropDownList>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+18540</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>226</ID>
+                      <Description>"Buff Status 2"</Description>
+                      <DropDownList DisplayValueAsItem="1">611355264: Normal
+617031360: Awakening
+616050112: Awake Recovery
+</DropDownList>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+18548</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>479</ID>
+                      <Description>"switch-in red outline"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14CC0-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>477</ID>
+                      <Description>"BlackState"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14C60-70</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>97</Key>
+                          </Keys>
+                          <Value>1</Value>
+                          <ID>0</ID>
+                        </Hotkey>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>96</Key>
+                          </Keys>
+                          <Value>0</Value>
+                          <ID>1</ID>
+                        </Hotkey>
+                      </Hotkeys>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>478</ID>
+                      <Description>"isActiveLeader?"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14C64-70</Address>
+                      <Hotkeys>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>97</Key>
+                          </Keys>
+                          <Value>0</Value>
+                          <ID>0</ID>
+                          <ActivateSound>Activate</ActivateSound>
+                        </Hotkey>
+                        <Hotkey>
+                          <Action>Set Value</Action>
+                          <Keys>
+                            <Key>96</Key>
+                          </Keys>
+                          <Value>1</Value>
+                          <ID>1</ID>
+                          <ActivateSound>Deactivate</ActivateSound>
+                        </Hotkey>
+                      </Hotkeys>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>481</ID>
+                      <Description>"cDash startup frame"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+14A24</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>483</ID>
+                      <Description>"in Ground Spark"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+14AE4-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>486</ID>
+                      <Description>"in Air Spark"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14AE8-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>484</ID>
+                      <Description>"in Air cDash (+startup)"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14AEC-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>236</ID>
+                      <Description>"Orbs 2"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+16E87C</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>418</ID>
+                      <Description>"Partner S"</Description>
+                      <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>4080FF</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>+16BEE0</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>60</ID>
+                          <Description>"X-Axis"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>Float</VariableType>
+                          <Address>+0</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>419</ID>
+                          <Description>"Y-Axis"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>Float</VariableType>
+                          <Address>+4</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>420</ID>
+                          <Description>"Z-Axis"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>Float</VariableType>
+                          <Address>+8</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>421</ID>
+                          <Description>"Gravity Track?"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>Float</VariableType>
+                          <Address>+e0</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>422</ID>
+                          <Description>"Attack Momentum?"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>Float</VariableType>
+                          <Address>+e4</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>423</ID>
+                          <Description>"Gravity Constant"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>Float</VariableType>
+                          <Address>+E8</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>424</ID>
+                          <Description>"Gravity"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>Float</VariableType>
+                          <Address>+ec</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>107</ID>
+                          <Description>"CharaCode"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+C1C</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>108</ID>
+                          <Description>"CharacterState"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+C50</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>109</ID>
+                          <Description>"Previous CharacterState"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <Color>FF0000</Color>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+C54</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>425</ID>
+                          <Description>"New Player State"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+C58</Address>
+                          <Hotkeys>
+                            <Hotkey>
+                              <Action>Set Value</Action>
+                              <Keys>
+                                <Key>51</Key>
+                              </Keys>
+                              <Value>67</Value>
+                              <ID>0</ID>
+                            </Hotkey>
+                          </Hotkeys>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>426</ID>
+                          <Description>"Enable Player State"</Description>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+C6C</Address>
+                          <Hotkeys>
+                            <Hotkey>
+                              <Action>Set Value</Action>
+                              <Keys>
+                                <Key>51</Key>
+                              </Keys>
+                              <Value>1</Value>
+                              <ID>0</ID>
+                            </Hotkey>
+                          </Hotkeys>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>101</ID>
+                          <Description>"Attack ID"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+1010</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>52</ID>
+                          <Description>"Previous Attack ID"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>4 Bytes</VariableType>
+                          <Address>+1024</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>49</ID>
+                          <Description>"ANM Speed"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>Float</VariableType>
+                          <Address>+1020</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>55</ID>
+                          <Description>"Guard HP"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>Float</VariableType>
+                          <Address>+149F0</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>58</ID>
+                          <Description>"Max Guard HP"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>Float</VariableType>
+                          <Address>+149F4</Address>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>57</ID>
+                          <Description>"Guard HP???"</Description>
+                          <Color>FF0000</Color>
+                          <VariableType>Float</VariableType>
+                          <Address>+149F8</Address>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>414</ID>
+                      <Description>"Rotation 2"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>+38</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>415</ID>
+                      <Description>"Rotation 3"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>+3C</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>115</ID>
+                      <Description>"Model Scale"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>+190</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>413</ID>
+                      <Description>"Rotation"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>+34</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>260</ID>
+                      <Description>"Controls Toggle"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+C3C</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>68</ID>
+                      <Description>"Current Player State"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+c50</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>114</ID>
+                      <Description>"Enable Character"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+C38</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>113</ID>
+                      <Description>"Can Control Character"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+C3C</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>112</ID>
+                      <Description>"Enable Animations"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+C40</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>111</ID>
+                      <Description>"Display Mdl"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+C48</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>124</ID>
+                      <Description>"Attack ID Allowed"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>+1014</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>71</ID>
+                      <Description>"ANM Speed"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>+1020</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>493</ID>
+                      <Description>"Chakra Load"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+FE50-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>492</ID>
+                      <Description>"Chakra Load 2"</Description>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+FE74-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>110</ID>
+                      <Description>"Movement Speed"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>+14104</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>480</ID>
+                      <Description>"combo/tilt/support related"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+14D70-70</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>66</ID>
+                      <Description>"Gravity Constant"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>+e8</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>72</ID>
+                      <Description>"Guard HP"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>+149F0</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>73</ID>
+                      <Description>"Max Guard HP"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>+149F4</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>74</ID>
+                      <Description>"Guard HP???"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>+149F8</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>69</ID>
+                      <Description>"Attack ID"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+1010</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>487</ID>
+                      <Description>"Right Stick Direction 2"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+A90</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>100</ID>
+                      <Description>"Character Code"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+C1C</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>261</ID>
+                      <Description>"Previous Player State"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+c54</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>281</ID>
+                      <Description>"Previous Attack ID"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+1024</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>488</ID>
+                      <Description>"Right Stick Direction 2"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>+A92</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>219</ID>
+                      <Description>"ANM Timer"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+14138</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>62</ID>
+                      <Description>"Y-Axis"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>Float</VariableType>
+                      <Address>+4</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>416</ID>
+                      <Description>"Sub Timer"</Description>
+                      <VariableType>Float</VariableType>
+                      <Address>+14A98</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>235</ID>
+                      <Description>"Orbs True"</Description>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+170BEC</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>233</ID>
+                      <Description>"Moveset State Fragment"</Description>
+                      <DropDownList DisplayValueAsItem="1">89558672: Normal
+92444944: Madara Tilt
+122788112: Awakening
+</DropDownList>
+                      <Color>FF0000</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>+16B858</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>427</ID>
@@ -390,406 +997,11 @@
                       </CheatEntries>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>413</ID>
-                      <Description>"Rotation"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>Float</VariableType>
-                      <Address>+34</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>414</ID>
-                      <Description>"Rotation 2"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>Float</VariableType>
-                      <Address>+38</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>415</ID>
-                      <Description>"Rotation 3"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>Float</VariableType>
-                      <Address>+3C</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>487</ID>
-                      <Description>"Right Stick Direction 2"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>+A90</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>488</ID>
-                      <Description>"Right Stick Direction 2"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>+A92</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>490</ID>
-                      <Description>"Support Order"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+A98</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>260</ID>
-                      <Description>"Controls Toggle"</Description>
+                      <ID>234</ID>
+                      <Description>"Orbs 1"</Description>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
-                      <Address>+C3C</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>222</ID>
-                      <Description>"Moveset State"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+C4C</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>233</ID>
-                      <Description>"Moveset State Fragment"</Description>
-                      <DropDownList DisplayValueAsItem="1">89558672: Normal
-92444944: Madara Tilt
-122788112: Awakening
-</DropDownList>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+16B858</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>68</ID>
-                      <Description>"Current Player State"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+c50</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>261</ID>
-                      <Description>"Previous Player State"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+c54</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>262</ID>
-                      <Description>"New Player State"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+c58</Address>
-                      <Hotkeys>
-                        <Hotkey>
-                          <Action>Increase Value</Action>
-                          <Keys>
-                            <Key>22551</Key>
-                          </Keys>
-                          <Value>1</Value>
-                          <ID>0</ID>
-                        </Hotkey>
-                        <Hotkey>
-                          <Action>Decrease Value</Action>
-                          <Keys>
-                            <Key>22550</Key>
-                          </Keys>
-                          <Value>1</Value>
-                          <ID>1</ID>
-                        </Hotkey>
-                        <Hotkey>
-                          <Action>Set Value</Action>
-                          <Keys>
-                            <Key>50</Key>
-                          </Keys>
-                          <Value>150</Value>
-                          <ID>2</ID>
-                        </Hotkey>
-                      </Hotkeys>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>263</ID>
-                      <Description>"Is Player State Available"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+C6C</Address>
-                      <Hotkeys>
-                        <Hotkey>
-                          <Action>Set Value</Action>
-                          <Keys>
-                            <Key>22551</Key>
-                          </Keys>
-                          <Value>1</Value>
-                          <ID>0</ID>
-                        </Hotkey>
-                        <Hotkey>
-                          <Action>Set Value</Action>
-                          <Keys>
-                            <Key>22550</Key>
-                          </Keys>
-                          <Value>1</Value>
-                          <ID>1</ID>
-                        </Hotkey>
-                        <Hotkey>
-                          <Action>Set Value</Action>
-                          <Keys>
-                            <Key>50</Key>
-                          </Keys>
-                          <Value>1</Value>
-                          <ID>2</ID>
-                        </Hotkey>
-                      </Hotkeys>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>100</ID>
-                      <Description>"Character Code"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+C1C</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>114</ID>
-                      <Description>"Enable Character"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+C38</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>113</ID>
-                      <Description>"Can Control Character"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+C3C</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>112</ID>
-                      <Description>"Enable Animations"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+C40</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>111</ID>
-                      <Description>"Display Mdl"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+C48</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>408</ID>
-                      <Description>"Priority 1"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+1403C-70</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>489</ID>
-                      <Description>"Priority 2"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+14044-70</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>417</ID>
-                      <Description>"Charged Dash"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+14A20</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>69</ID>
-                      <Description>"Attack ID"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+1010</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>281</ID>
-                      <Description>"Previous Attack ID"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+1024</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>127</ID>
-                      <Description>"Attack ID"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+1C44D0</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>124</ID>
-                      <Description>"Attack ID Allowed"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>Float</VariableType>
-                      <Address>+1014</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>416</ID>
-                      <Description>"Sub Timer"</Description>
-                      <VariableType>Float</VariableType>
-                      <Address>+14A98</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>71</ID>
-                      <Description>"ANM Speed"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>Float</VariableType>
-                      <Address>+1020</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>110</ID>
-                      <Description>"Movement Speed"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>Float</VariableType>
-                      <Address>+14104</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>219</ID>
-                      <Description>"ANM Timer"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+14138</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>72</ID>
-                      <Description>"Guard HP"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>Float</VariableType>
-                      <Address>+149F0</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>73</ID>
-                      <Description>"Max Guard HP"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>Float</VariableType>
-                      <Address>+149F4</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>74</ID>
-                      <Description>"Guard HP???"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>Float</VariableType>
-                      <Address>+149F8</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>61</ID>
-                      <Description>"??? (Pointer)"</Description>
-                      <LastState RealAddress="00000000"/>
-                      <Color>FF0000</Color>
-                      <VariableType>String</VariableType>
-                      <Length>0</Length>
-                      <Unicode>0</Unicode>
-                      <CodePage>0</CodePage>
-                      <ZeroTerminate>0</ZeroTerminate>
-                      <Address>+14E20</Address>
-                      <Offsets>
-                        <Offset>0</Offset>
-                      </Offsets>
-                      <CheatEntries>
-                        <CheatEntry>
-                          <ID>319</ID>
-                          <Description>"Leader Switch Cost"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>Float</VariableType>
-                          <Address>+10</Address>
-                        </CheatEntry>
-                      </CheatEntries>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>225</ID>
-                      <Description>"Awake Increment"</Description>
-                      <DropDownList DisplayValueAsItem="1">611355264: Normal
-617031360: Awakening
-616050112: Awake Recovery
-</DropDownList>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+18518</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>227</ID>
-                      <Description>"Buff Status"</Description>
-                      <DropDownList DisplayValueAsItem="1">611355264: Normal
-617031360: Awakening
-616050112: Awake Recovery
-</DropDownList>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+18540</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>226</ID>
-                      <Description>"Buff Status 2"</Description>
-                      <DropDownList DisplayValueAsItem="1">611355264: Normal
-617031360: Awakening
-616050112: Awake Recovery
-</DropDownList>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+18548</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>477</ID>
-                      <Description>"BlackState"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+14C60-70</Address>
-                      <Hotkeys>
-                        <Hotkey>
-                          <Action>Set Value</Action>
-                          <Keys>
-                            <Key>97</Key>
-                          </Keys>
-                          <Value>1</Value>
-                          <ID>0</ID>
-                        </Hotkey>
-                        <Hotkey>
-                          <Action>Set Value</Action>
-                          <Keys>
-                            <Key>96</Key>
-                          </Keys>
-                          <Value>0</Value>
-                          <ID>1</ID>
-                        </Hotkey>
-                      </Hotkeys>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>478</ID>
-                      <Description>"isActiveLeader?"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+14C64-70</Address>
-                      <Hotkeys>
-                        <Hotkey>
-                          <Action>Set Value</Action>
-                          <Keys>
-                            <Key>97</Key>
-                          </Keys>
-                          <Value>0</Value>
-                          <ID>0</ID>
-                          <ActivateSound>Activate</ActivateSound>
-                        </Hotkey>
-                        <Hotkey>
-                          <Action>Set Value</Action>
-                          <Keys>
-                            <Key>96</Key>
-                          </Keys>
-                          <Value>1</Value>
-                          <ID>1</ID>
-                          <ActivateSound>Deactivate</ActivateSound>
-                        </Hotkey>
-                      </Hotkeys>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>479</ID>
-                      <Description>"switch-in red outline"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+14CC0-70</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>480</ID>
-                      <Description>"combo/tilt/support related"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>+14D70-70</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>481</ID>
-                      <Description>"cDash startup frame"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>+14A24</Address>
+                      <Address>+16D2FC</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>485</ID>
@@ -798,209 +1010,12 @@
                       <Address>+14AE0-70</Address>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>483</ID>
-                      <Description>"in Ground Spark"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>+14AE4-70</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>486</ID>
-                      <Description>"in Air Spark"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+14AE8-70</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>484</ID>
-                      <Description>"in Air cDash (+startup)"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+14AEC-70</Address>
-                    </CheatEntry>
-                    <CheatEntry>
                       <ID>409</ID>
                       <Description>"Item Being Used"</Description>
                       <ShowAsSigned>0</ShowAsSigned>
                       <Color>FF0000</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>+1558C</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>234</ID>
-                      <Description>"Orbs 1"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+16D2FC</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>236</ID>
-                      <Description>"Orbs 2"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+16E87C</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>235</ID>
-                      <Description>"Orbs True"</Description>
-                      <Color>FF0000</Color>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>+170BEC</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>418</ID>
-                      <Description>"Partner S"</Description>
-                      <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <Color>4080FF</Color>
-                      <VariableType>Float</VariableType>
-                      <Address>+16BEE0</Address>
-                      <CheatEntries>
-                        <CheatEntry>
-                          <ID>60</ID>
-                          <Description>"X-Axis"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>Float</VariableType>
-                          <Address>+0</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>419</ID>
-                          <Description>"Y-Axis"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>Float</VariableType>
-                          <Address>+4</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>420</ID>
-                          <Description>"Z-Axis"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>Float</VariableType>
-                          <Address>+8</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>421</ID>
-                          <Description>"Gravity Track?"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>Float</VariableType>
-                          <Address>+e0</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>422</ID>
-                          <Description>"Attack Momentum?"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>Float</VariableType>
-                          <Address>+e4</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>423</ID>
-                          <Description>"Gravity Constant"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>Float</VariableType>
-                          <Address>+E8</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>424</ID>
-                          <Description>"Gravity"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>Float</VariableType>
-                          <Address>+ec</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>107</ID>
-                          <Description>"CharaCode"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>4 Bytes</VariableType>
-                          <Address>+C1C</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>108</ID>
-                          <Description>"CharacterState"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>4 Bytes</VariableType>
-                          <Address>+C50</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>109</ID>
-                          <Description>"Previous CharacterState"</Description>
-                          <ShowAsSigned>0</ShowAsSigned>
-                          <Color>FF0000</Color>
-                          <VariableType>4 Bytes</VariableType>
-                          <Address>+C54</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>425</ID>
-                          <Description>"New Player State"</Description>
-                          <ShowAsSigned>0</ShowAsSigned>
-                          <VariableType>4 Bytes</VariableType>
-                          <Address>+C58</Address>
-                          <Hotkeys>
-                            <Hotkey>
-                              <Action>Set Value</Action>
-                              <Keys>
-                                <Key>51</Key>
-                              </Keys>
-                              <Value>67</Value>
-                              <ID>0</ID>
-                            </Hotkey>
-                          </Hotkeys>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>426</ID>
-                          <Description>"Enable Player State"</Description>
-                          <ShowAsSigned>0</ShowAsSigned>
-                          <VariableType>4 Bytes</VariableType>
-                          <Address>+C6C</Address>
-                          <Hotkeys>
-                            <Hotkey>
-                              <Action>Set Value</Action>
-                              <Keys>
-                                <Key>51</Key>
-                              </Keys>
-                              <Value>1</Value>
-                              <ID>0</ID>
-                            </Hotkey>
-                          </Hotkeys>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>101</ID>
-                          <Description>"Attack ID"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>4 Bytes</VariableType>
-                          <Address>+1010</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>52</ID>
-                          <Description>"Previous Attack ID"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>4 Bytes</VariableType>
-                          <Address>+1024</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>49</ID>
-                          <Description>"ANM Speed"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>Float</VariableType>
-                          <Address>+1020</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>55</ID>
-                          <Description>"Guard HP"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>Float</VariableType>
-                          <Address>+149F0</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>58</ID>
-                          <Description>"Max Guard HP"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>Float</VariableType>
-                          <Address>+149F4</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>57</ID>
-                          <Description>"Guard HP???"</Description>
-                          <Color>FF0000</Color>
-                          <VariableType>Float</VariableType>
-                          <Address>+149F8</Address>
-                        </CheatEntry>
-                      </CheatEntries>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
@@ -1323,8 +1338,9 @@
     <CheatEntry>
       <ID>472</ID>
       <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
-      <Address>"NSUNS4.exe"+7BF6F2+c00</Address>
+      <Address>"NSUNS4.exe"+7D3560+c00</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>491</ID>
@@ -1334,7 +1350,7 @@
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of movss [NSUNS4.exe+16075F4],xmm0</Description>
       <AddressString>NSUNS4.exe+575465</AddressString>
       <Before>
@@ -1362,7 +1378,7 @@
         <Byte>30</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of cvttss2si eax,xmm2</Description>
       <AddressString>NSUNS4.exe+57544C</AddressString>
       <Before>
@@ -1386,7 +1402,7 @@
         <Byte>01</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov rcx,[rcx+00014A70]</Description>
       <AddressString>NSUNS4.exe+575406</AddressString>
       <Before>
@@ -1413,7 +1429,7 @@
         <Byte>50</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov rax,[rcx]</Description>
       <AddressString>NSUNS4.exe+57540D</AddressString>
       <Before>
@@ -1436,7 +1452,7 @@
         <Byte>8B</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rcx+00000118],00000000</Description>
       <AddressString>NSUNS4.exe+AB47A2</AddressString>
       <Before>
@@ -1466,7 +1482,7 @@
         <Byte>00</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of cmp dword ptr [rcx+0000011C],00</Description>
       <AddressString>NSUNS4.exe+AB4790</AddressString>
       <Before>
@@ -1493,7 +1509,7 @@
         <Byte>18</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of cmp dword ptr [rbx+00000118],00</Description>
       <AddressString>NSUNS4.exe+AB4886</AddressString>
       <Before>
@@ -1520,7 +1536,7 @@
         <Byte>8B</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of cmp dword ptr [rcx+0000011C],00</Description>
       <AddressString>NSUNS4.exe+AB4760</AddressString>
       <Before>
@@ -1547,7 +1563,7 @@
         <Byte>18</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of cmp dword ptr [rcx+00000118],00</Description>
       <AddressString>NSUNS4.exe+AB4769</AddressString>
       <Before>
@@ -1574,7 +1590,7 @@
         <Byte>18</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rdi+000001D0],ebx</Description>
       <AddressString>NSUNS4.exe+5AF866</AddressString>
       <Before>
@@ -1600,7 +1616,7 @@
         <Byte>00</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rcx+18],rax</Description>
       <AddressString>NSUNS4.exe+8083A8</AddressString>
       <Before>
@@ -1624,7 +1640,7 @@
         <Byte>89</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of sub [rbx+18],rax</Description>
       <AddressString>NSUNS4.exe+808402</AddressString>
       <Before>
@@ -1648,7 +1664,7 @@
         <Byte>10</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rcx+10],rax</Description>
       <AddressString>NSUNS4.exe+8083AF</AddressString>
       <Before>
@@ -1672,7 +1688,7 @@
         <Byte>42</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rbx+10],rdx</Description>
       <AddressString>NSUNS4.exe+808388</AddressString>
       <Before>
@@ -1696,7 +1712,7 @@
         <Byte>5B</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rbx+0C],eax</Description>
       <AddressString>NSUNS4.exe+AD2278</AddressString>
       <Before>
@@ -1719,7 +1735,7 @@
         <Byte>43</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rbx+0C],rax</Description>
       <AddressString>NSUNS4.exe+AD225A</AddressString>
       <Before>
@@ -1743,7 +1759,7 @@
         <Byte>48</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rdi+00000408],eax</Description>
       <AddressString>NSUNS4.exe+7C0605</AddressString>
       <Before>
@@ -1769,7 +1785,7 @@
         <Byte>D0</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rcx+20],rax</Description>
       <AddressString>NSUNS4.exe+AD1D6B</AddressString>
       <Before>
@@ -1793,7 +1809,7 @@
         <Byte>48</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of or [rbx+20],eax</Description>
       <AddressString>NSUNS4.exe+AD1DBB</AddressString>
       <Before>
@@ -1816,7 +1832,7 @@
         <Byte>43</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rbx+04],rax</Description>
       <AddressString>NSUNS4.exe+AD2256</AddressString>
       <Before>
@@ -1840,7 +1856,7 @@
         <Byte>48</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rbx+04],ecx</Description>
       <AddressString>NSUNS4.exe+AD226C</AddressString>
       <Before>
@@ -1863,7 +1879,7 @@
         <Byte>4B</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rcx+30],rax</Description>
       <AddressString>NSUNS4.exe+AD1D73</AddressString>
       <Before>
@@ -1887,7 +1903,7 @@
         <Byte>89</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of or [rbx+30],eax</Description>
       <AddressString>NSUNS4.exe+AD1DCC</AddressString>
       <Before>
@@ -1910,7 +1926,7 @@
         <Byte>43</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rbx+14],rax</Description>
       <AddressString>NSUNS4.exe+AD225E</AddressString>
       <Before>
@@ -1934,7 +1950,7 @@
         <Byte>89</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rbx+14],eax</Description>
       <AddressString>NSUNS4.exe+AD227E</AddressString>
       <Before>
@@ -1957,7 +1973,7 @@
         <Byte>43</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rbx+0C],rax</Description>
       <AddressString>NSUNS4.exe+AD225A</AddressString>
       <Before>
@@ -1981,7 +1997,7 @@
         <Byte>48</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rbx+0C],eax</Description>
       <AddressString>NSUNS4.exe+AD2278</AddressString>
       <Before>
@@ -2004,7 +2020,7 @@
         <Byte>90</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of movss [rdi],xmm3</Description>
       <AddressString>NSUNS4.exe+867301</AddressString>
       <Before>
@@ -2028,7 +2044,7 @@
         <Byte>F7</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rdx],ecx</Description>
       <AddressString>NSUNS4.exe+86723C</AddressString>
       <Before>
@@ -2050,7 +2066,7 @@
         <Byte>31</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rsi],eax</Description>
       <AddressString>NSUNS4.exe+867340</AddressString>
       <Before>
@@ -2072,7 +2088,7 @@
         <Byte>40</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rdx],ecx</Description>
       <AddressString>NSUNS4.exe+86723C</AddressString>
       <Before>
@@ -2094,7 +2110,7 @@
         <Byte>31</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rsi],eax</Description>
       <AddressString>NSUNS4.exe+867340</AddressString>
       <Before>
@@ -2116,7 +2132,7 @@
         <Byte>40</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rsi],eax</Description>
       <AddressString>NSUNS4.exe+867340</AddressString>
       <Before>
@@ -2138,7 +2154,7 @@
         <Byte>40</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rax+04],rdi</Description>
       <AddressString>NSUNS4.exe+7C0303</AddressString>
       <Before>
@@ -2162,7 +2178,7 @@
         <Byte>01</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rax-04],edi</Description>
       <AddressString>NSUNS4.exe+7C0300</AddressString>
       <Before>
@@ -2185,7 +2201,7 @@
         <Byte>48</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of and [rbx+00014C60],edi</Description>
       <AddressString>NSUNS4.exe+575FDC</AddressString>
       <Before>
@@ -2211,7 +2227,7 @@
         <Byte>0B</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of and dword ptr [rbx+00014C60],00</Description>
       <AddressString>NSUNS4.exe+7E8B22</AddressString>
       <Before>
@@ -2238,7 +2254,7 @@
         <Byte>00</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry>
+    <CodeEntry Color="20000000">
       <Description>Change of mov [rcx+00014C60],00000001</Description>
       <AddressString>NSUNS4.exe+57789E</AddressString>
       <Before>
