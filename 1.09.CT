@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="34">
+<CheatTable CheatEngineTableVersion="29">
   <CheatEntries>
     <CheatEntry>
       <ID>39</ID>
@@ -1052,6 +1052,22 @@
         </CheatEntry>
         <CheatEntry>
           <ID>3</ID>
+          <Description>"X Resolution"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>0000FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>NSUNS4.exe+0x1561108</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>495</ID>
+          <Description>"Y Resolution"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>0000FF</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>NSUNS4.exe+156110C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>494</ID>
           <Description>"Music Volume"</Description>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
@@ -1335,22 +1351,9 @@
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
-    <CheatEntry>
-      <ID>472</ID>
-      <Description>"No description"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>"NSUNS4.exe"+7D3560+c00</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>491</ID>
-      <Description>"No description"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>20D765E0540-70+B08</Address>
-    </CheatEntry>
   </CheatEntries>
   <CheatCodes>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of movss [NSUNS4.exe+16075F4],xmm0</Description>
       <AddressString>NSUNS4.exe+575465</AddressString>
       <Before>
@@ -1378,7 +1381,7 @@
         <Byte>30</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of cvttss2si eax,xmm2</Description>
       <AddressString>NSUNS4.exe+57544C</AddressString>
       <Before>
@@ -1402,7 +1405,7 @@
         <Byte>01</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov rcx,[rcx+00014A70]</Description>
       <AddressString>NSUNS4.exe+575406</AddressString>
       <Before>
@@ -1429,7 +1432,7 @@
         <Byte>50</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov rax,[rcx]</Description>
       <AddressString>NSUNS4.exe+57540D</AddressString>
       <Before>
@@ -1452,7 +1455,7 @@
         <Byte>8B</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rcx+00000118],00000000</Description>
       <AddressString>NSUNS4.exe+AB47A2</AddressString>
       <Before>
@@ -1482,7 +1485,7 @@
         <Byte>00</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of cmp dword ptr [rcx+0000011C],00</Description>
       <AddressString>NSUNS4.exe+AB4790</AddressString>
       <Before>
@@ -1509,7 +1512,7 @@
         <Byte>18</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of cmp dword ptr [rbx+00000118],00</Description>
       <AddressString>NSUNS4.exe+AB4886</AddressString>
       <Before>
@@ -1536,7 +1539,7 @@
         <Byte>8B</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of cmp dword ptr [rcx+0000011C],00</Description>
       <AddressString>NSUNS4.exe+AB4760</AddressString>
       <Before>
@@ -1563,7 +1566,7 @@
         <Byte>18</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of cmp dword ptr [rcx+00000118],00</Description>
       <AddressString>NSUNS4.exe+AB4769</AddressString>
       <Before>
@@ -1590,7 +1593,7 @@
         <Byte>18</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rdi+000001D0],ebx</Description>
       <AddressString>NSUNS4.exe+5AF866</AddressString>
       <Before>
@@ -1616,7 +1619,7 @@
         <Byte>00</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rcx+18],rax</Description>
       <AddressString>NSUNS4.exe+8083A8</AddressString>
       <Before>
@@ -1640,7 +1643,7 @@
         <Byte>89</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of sub [rbx+18],rax</Description>
       <AddressString>NSUNS4.exe+808402</AddressString>
       <Before>
@@ -1664,7 +1667,7 @@
         <Byte>10</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rcx+10],rax</Description>
       <AddressString>NSUNS4.exe+8083AF</AddressString>
       <Before>
@@ -1688,7 +1691,7 @@
         <Byte>42</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rbx+10],rdx</Description>
       <AddressString>NSUNS4.exe+808388</AddressString>
       <Before>
@@ -1712,7 +1715,7 @@
         <Byte>5B</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rbx+0C],eax</Description>
       <AddressString>NSUNS4.exe+AD2278</AddressString>
       <Before>
@@ -1735,7 +1738,7 @@
         <Byte>43</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rbx+0C],rax</Description>
       <AddressString>NSUNS4.exe+AD225A</AddressString>
       <Before>
@@ -1759,7 +1762,7 @@
         <Byte>48</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rdi+00000408],eax</Description>
       <AddressString>NSUNS4.exe+7C0605</AddressString>
       <Before>
@@ -1785,7 +1788,7 @@
         <Byte>D0</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rcx+20],rax</Description>
       <AddressString>NSUNS4.exe+AD1D6B</AddressString>
       <Before>
@@ -1809,7 +1812,7 @@
         <Byte>48</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of or [rbx+20],eax</Description>
       <AddressString>NSUNS4.exe+AD1DBB</AddressString>
       <Before>
@@ -1832,7 +1835,7 @@
         <Byte>43</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rbx+04],rax</Description>
       <AddressString>NSUNS4.exe+AD2256</AddressString>
       <Before>
@@ -1856,7 +1859,7 @@
         <Byte>48</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rbx+04],ecx</Description>
       <AddressString>NSUNS4.exe+AD226C</AddressString>
       <Before>
@@ -1879,7 +1882,7 @@
         <Byte>4B</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rcx+30],rax</Description>
       <AddressString>NSUNS4.exe+AD1D73</AddressString>
       <Before>
@@ -1903,7 +1906,7 @@
         <Byte>89</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of or [rbx+30],eax</Description>
       <AddressString>NSUNS4.exe+AD1DCC</AddressString>
       <Before>
@@ -1926,7 +1929,7 @@
         <Byte>43</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rbx+14],rax</Description>
       <AddressString>NSUNS4.exe+AD225E</AddressString>
       <Before>
@@ -1950,7 +1953,7 @@
         <Byte>89</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rbx+14],eax</Description>
       <AddressString>NSUNS4.exe+AD227E</AddressString>
       <Before>
@@ -1973,7 +1976,7 @@
         <Byte>43</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rbx+0C],rax</Description>
       <AddressString>NSUNS4.exe+AD225A</AddressString>
       <Before>
@@ -1997,7 +2000,7 @@
         <Byte>48</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rbx+0C],eax</Description>
       <AddressString>NSUNS4.exe+AD2278</AddressString>
       <Before>
@@ -2020,7 +2023,7 @@
         <Byte>90</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of movss [rdi],xmm3</Description>
       <AddressString>NSUNS4.exe+867301</AddressString>
       <Before>
@@ -2044,7 +2047,7 @@
         <Byte>F7</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rdx],ecx</Description>
       <AddressString>NSUNS4.exe+86723C</AddressString>
       <Before>
@@ -2066,7 +2069,7 @@
         <Byte>31</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rsi],eax</Description>
       <AddressString>NSUNS4.exe+867340</AddressString>
       <Before>
@@ -2088,7 +2091,7 @@
         <Byte>40</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rdx],ecx</Description>
       <AddressString>NSUNS4.exe+86723C</AddressString>
       <Before>
@@ -2110,7 +2113,7 @@
         <Byte>31</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rsi],eax</Description>
       <AddressString>NSUNS4.exe+867340</AddressString>
       <Before>
@@ -2132,7 +2135,7 @@
         <Byte>40</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rsi],eax</Description>
       <AddressString>NSUNS4.exe+867340</AddressString>
       <Before>
@@ -2154,7 +2157,7 @@
         <Byte>40</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rax+04],rdi</Description>
       <AddressString>NSUNS4.exe+7C0303</AddressString>
       <Before>
@@ -2178,7 +2181,7 @@
         <Byte>01</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rax-04],edi</Description>
       <AddressString>NSUNS4.exe+7C0300</AddressString>
       <Before>
@@ -2201,7 +2204,7 @@
         <Byte>48</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of and [rbx+00014C60],edi</Description>
       <AddressString>NSUNS4.exe+575FDC</AddressString>
       <Before>
@@ -2227,7 +2230,7 @@
         <Byte>0B</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of and dword ptr [rbx+00014C60],00</Description>
       <AddressString>NSUNS4.exe+7E8B22</AddressString>
       <Before>
@@ -2254,7 +2257,7 @@
         <Byte>00</Byte>
       </After>
     </CodeEntry>
-    <CodeEntry Color="20000000">
+    <CodeEntry>
       <Description>Change of mov [rcx+00014C60],00000001</Description>
       <AddressString>NSUNS4.exe+57789E</AddressString>
       <Before>
@@ -2282,6 +2285,207 @@
         <Byte>64</Byte>
         <Byte>4C</Byte>
         <Byte>01</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov [NSUNS4.exe+1561138],eax</Description>
+      <AddressString>NSUNS4.exe+A44CC3</AddressString>
+      <Before>
+        <Byte>B1</Byte>
+        <Byte>00</Byte>
+        <Byte>8B</Byte>
+        <Byte>41</Byte>
+        <Byte>30</Byte>
+      </Before>
+      <Actual>
+        <Byte>89</Byte>
+        <Byte>05</Byte>
+        <Byte>6F</Byte>
+        <Byte>C4</Byte>
+        <Byte>B1</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>C3</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movups xmm0,[rcx]</Description>
+      <AddressString>NSUNS4.exe+A44CA0</AddressString>
+      <Before>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>10</Byte>
+        <Byte>01</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>05</Byte>
+        <Byte>5E</Byte>
+        <Byte>C4</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movups [NSUNS4.exe+1561108],xmm0</Description>
+      <AddressString>NSUNS4.exe+A44CA3</AddressString>
+      <Before>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>05</Byte>
+        <Byte>5E</Byte>
+        <Byte>C4</Byte>
+        <Byte>B1</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>10</Byte>
+        <Byte>49</Byte>
+        <Byte>10</Byte>
+        <Byte>0F</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movups xmm1,[rcx+10]</Description>
+      <AddressString>NSUNS4.exe+A44CAA</AddressString>
+      <Before>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>10</Byte>
+        <Byte>49</Byte>
+        <Byte>10</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>0D</Byte>
+        <Byte>63</Byte>
+        <Byte>C4</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movups [NSUNS4.exe+1561118],xmm1</Description>
+      <AddressString>NSUNS4.exe+A44CAE</AddressString>
+      <Before>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>0D</Byte>
+        <Byte>63</Byte>
+        <Byte>C4</Byte>
+        <Byte>B1</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>10</Byte>
+        <Byte>41</Byte>
+        <Byte>20</Byte>
+        <Byte>0F</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movups xmm0,[rcx+20]</Description>
+      <AddressString>NSUNS4.exe+A44CB5</AddressString>
+      <Before>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>10</Byte>
+        <Byte>41</Byte>
+        <Byte>20</Byte>
+      </Actual>
+      <After>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>05</Byte>
+        <Byte>68</Byte>
+        <Byte>C4</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of movups [NSUNS4.exe+1561128],xmm0</Description>
+      <AddressString>NSUNS4.exe+A44CB9</AddressString>
+      <Before>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>11</Byte>
+        <Byte>05</Byte>
+        <Byte>68</Byte>
+        <Byte>C4</Byte>
+        <Byte>B1</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>41</Byte>
+        <Byte>30</Byte>
+        <Byte>89</Byte>
+        <Byte>05</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of mov eax,[rcx+30]</Description>
+      <AddressString>NSUNS4.exe+A44CC0</AddressString>
+      <Before>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+        <Byte>90</Byte>
+      </Before>
+      <Actual>
+        <Byte>8B</Byte>
+        <Byte>41</Byte>
+        <Byte>30</Byte>
+      </Actual>
+      <After>
+        <Byte>89</Byte>
+        <Byte>05</Byte>
+        <Byte>6F</Byte>
+        <Byte>C4</Byte>
+        <Byte>B1</Byte>
       </After>
     </CodeEntry>
   </CheatCodes>
