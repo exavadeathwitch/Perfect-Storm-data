@@ -38,7 +38,7 @@
                   <ID>45</ID>
                   <Description>"P"</Description>
                   <Options moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-                  <LastState RealAddress="00000000"/>
+                  <LastState RealAddress="00000070"/>
                   <Color>FF0000</Color>
                   <VariableType>String</VariableType>
                   <Length>0</Length>
@@ -208,7 +208,7 @@
                           <Keys>
                             <Key>50</Key>
                           </Keys>
-                          <Value>150</Value>
+                          <Value>135</Value>
                           <ID>2</ID>
                         </Hotkey>
                       </Hotkeys>
@@ -1037,6 +1037,7 @@
         <CheatEntry>
           <ID>40</ID>
           <Description>"FPS Setting"</Description>
+          <LastState Value="30" RealAddress="7FF67CCE1138"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
           <VariableType>Byte</VariableType>
@@ -1045,6 +1046,7 @@
         <CheatEntry>
           <ID>4</ID>
           <Description>"Global Speed"</Description>
+          <LastState Value="1" RealAddress="7FF67CD9A334"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
           <VariableType>Float</VariableType>
@@ -1053,6 +1055,7 @@
         <CheatEntry>
           <ID>3</ID>
           <Description>"X Resolution"</Description>
+          <LastState Value="960" RealAddress="7FF67CCE1108"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
@@ -1061,6 +1064,7 @@
         <CheatEntry>
           <ID>495</ID>
           <Description>"Y Resolution"</Description>
+          <LastState Value="540" RealAddress="7FF67CCE110C"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
@@ -1069,6 +1073,7 @@
         <CheatEntry>
           <ID>494</ID>
           <Description>"Music Volume"</Description>
+          <LastState Value="0" RealAddress="7FF67CD9FEEA"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
           <VariableType>Byte</VariableType>
@@ -1077,6 +1082,7 @@
         <CheatEntry>
           <ID>0</ID>
           <Description>"Ryo"</Description>
+          <LastState Value="9374704" RealAddress="7FF67CD9FFEC"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
@@ -1085,6 +1091,7 @@
         <CheatEntry>
           <ID>5</ID>
           <Description>"Is the Game In Focus"</Description>
+          <LastState Value="0" RealAddress="7FF67CE3DAE8"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>0000FF</Color>
           <VariableType>4 Bytes</VariableType>
@@ -1100,248 +1107,283 @@
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
-              <ID>11</ID>
-              <Description>"Preset 1"</Description>
+              <ID>496</ID>
+              <Description>"Base Address"</Description>
+              <LastState Value="5 1" RealAddress="7FF67CDB6D40"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>FF8000</Color>
               <VariableType>Array of byte</VariableType>
               <ByteLength>2</ByteLength>
-              <Address>+0</Address>
+              <Address>NSUNS4.exe+1636D40</Address>
               <CheatEntries>
                 <CheatEntry>
-                  <ID>12</ID>
-                  <Description>"Support 1"</Description>
+                  <ID>11</ID>
+                  <Description>"Preset 1"</Description>
+                  <LastState Value="261" RealAddress="7FF67CDB6D40"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <Color>FF8000</Color>
-                  <VariableType>Array of byte</VariableType>
-                  <ByteLength>2</ByteLength>
-                  <Address>+0xC</Address>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>+0</Address>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>14</ID>
-                      <Description>"Support 2"</Description>
-                      <ShowAsSigned>0</ShowAsSigned>
-                      <Color>FF8000</Color>
-                      <VariableType>Array of byte</VariableType>
-                      <ByteLength>2</ByteLength>
-                      <Address>+c</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>16</ID>
-              <Description>"Preset 2"</Description>
-              <ShowAsSigned>0</ShowAsSigned>
-              <Color>FF8000</Color>
-              <VariableType>Array of byte</VariableType>
-              <ByteLength>2</ByteLength>
-              <Address>+0x1A8</Address>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>17</ID>
-                  <Description>"Support 1"</Description>
-                  <ShowAsSigned>0</ShowAsSigned>
-                  <Color>FF8000</Color>
-                  <VariableType>Array of byte</VariableType>
-                  <ByteLength>2</ByteLength>
-                  <Address>+0xC</Address>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>18</ID>
-                      <Description>"Support 2"</Description>
+                      <ID>12</ID>
+                      <Description>"Support 1"</Description>
+                      <LastState Value="0 1" RealAddress="7FF67CDB6D4C"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <Color>FF8000</Color>
                       <VariableType>Array of byte</VariableType>
                       <ByteLength>2</ByteLength>
                       <Address>+0xC</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>14</ID>
+                          <Description>"Support 2"</Description>
+                          <LastState Value="25 0" RealAddress="7FF67CDB6D58"/>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <Color>FF8000</Color>
+                          <VariableType>Array of byte</VariableType>
+                          <ByteLength>2</ByteLength>
+                          <Address>+c</Address>
+                        </CheatEntry>
+                      </CheatEntries>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>19</ID>
-              <Description>"Preset 3"</Description>
-              <ShowAsSigned>0</ShowAsSigned>
-              <Color>FF8000</Color>
-              <VariableType>Array of byte</VariableType>
-              <ByteLength>2</ByteLength>
-              <Address>+0x350</Address>
-              <CheatEntries>
                 <CheatEntry>
-                  <ID>20</ID>
-                  <Description>"Support 1"</Description>
+                  <ID>16</ID>
+                  <Description>"Preset 2"</Description>
+                  <LastState Value="0 0" RealAddress="7FF67CDB6EE8"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <Color>FF8000</Color>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>2</ByteLength>
-                  <Address>+0xC</Address>
+                  <Address>+0x1A8</Address>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>21</ID>
-                      <Description>"Support 2"</Description>
+                      <ID>17</ID>
+                      <Description>"Support 1"</Description>
+                      <LastState Value="0 0" RealAddress="7FF67CDB6EF4"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <Color>FF8000</Color>
                       <VariableType>Array of byte</VariableType>
                       <ByteLength>2</ByteLength>
                       <Address>+0xC</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>18</ID>
+                          <Description>"Support 2"</Description>
+                          <LastState Value="0 0" RealAddress="7FF67CDB6F00"/>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <Color>FF8000</Color>
+                          <VariableType>Array of byte</VariableType>
+                          <ByteLength>2</ByteLength>
+                          <Address>+0xC</Address>
+                        </CheatEntry>
+                      </CheatEntries>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>22</ID>
-              <Description>"Preset 4"</Description>
-              <ShowAsSigned>0</ShowAsSigned>
-              <Color>FF8000</Color>
-              <VariableType>Array of byte</VariableType>
-              <ByteLength>2</ByteLength>
-              <Address>+0x4f8</Address>
-              <CheatEntries>
                 <CheatEntry>
-                  <ID>23</ID>
-                  <Description>"Support 1"</Description>
+                  <ID>19</ID>
+                  <Description>"Preset 3"</Description>
+                  <LastState Value="0 0" RealAddress="7FF67CDB7090"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <Color>FF8000</Color>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>2</ByteLength>
-                  <Address>+0xC</Address>
+                  <Address>+0x350</Address>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>24</ID>
-                      <Description>"Support 2"</Description>
+                      <ID>20</ID>
+                      <Description>"Support 1"</Description>
+                      <LastState Value="0 0" RealAddress="7FF67CDB709C"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <Color>FF8000</Color>
                       <VariableType>Array of byte</VariableType>
                       <ByteLength>2</ByteLength>
                       <Address>+0xC</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>21</ID>
+                          <Description>"Support 2"</Description>
+                          <LastState Value="0 0" RealAddress="7FF67CDB70A8"/>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <Color>FF8000</Color>
+                          <VariableType>Array of byte</VariableType>
+                          <ByteLength>2</ByteLength>
+                          <Address>+0xC</Address>
+                        </CheatEntry>
+                      </CheatEntries>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>25</ID>
-              <Description>"Preset 5"</Description>
-              <ShowAsSigned>0</ShowAsSigned>
-              <Color>FF8000</Color>
-              <VariableType>Array of byte</VariableType>
-              <ByteLength>2</ByteLength>
-              <Address>+0x6a0</Address>
-              <CheatEntries>
                 <CheatEntry>
-                  <ID>26</ID>
-                  <Description>"Support 1"</Description>
+                  <ID>22</ID>
+                  <Description>"Preset 4"</Description>
+                  <LastState Value="0 0" RealAddress="7FF67CDB7238"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <Color>FF8000</Color>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>2</ByteLength>
-                  <Address>+0xC</Address>
+                  <Address>+0x4f8</Address>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>27</ID>
-                      <Description>"Support 2"</Description>
+                      <ID>23</ID>
+                      <Description>"Support 1"</Description>
+                      <LastState Value="0 0" RealAddress="7FF67CDB7244"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <Color>FF8000</Color>
                       <VariableType>Array of byte</VariableType>
                       <ByteLength>2</ByteLength>
                       <Address>+0xC</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>24</ID>
+                          <Description>"Support 2"</Description>
+                          <LastState Value="0 0" RealAddress="7FF67CDB7250"/>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <Color>FF8000</Color>
+                          <VariableType>Array of byte</VariableType>
+                          <ByteLength>2</ByteLength>
+                          <Address>+0xC</Address>
+                        </CheatEntry>
+                      </CheatEntries>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>28</ID>
-              <Description>"Preset 6"</Description>
-              <ShowAsSigned>0</ShowAsSigned>
-              <Color>FF8000</Color>
-              <VariableType>Array of byte</VariableType>
-              <ByteLength>2</ByteLength>
-              <Address>+0x848</Address>
-              <CheatEntries>
                 <CheatEntry>
-                  <ID>29</ID>
-                  <Description>"Support 1"</Description>
+                  <ID>25</ID>
+                  <Description>"Preset 5"</Description>
+                  <LastState Value="0 0" RealAddress="7FF67CDB73E0"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <Color>FF8000</Color>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>2</ByteLength>
-                  <Address>+0xC</Address>
+                  <Address>+0x6a0</Address>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>30</ID>
-                      <Description>"Support 2"</Description>
+                      <ID>26</ID>
+                      <Description>"Support 1"</Description>
+                      <LastState Value="0 0" RealAddress="7FF67CDB73EC"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <Color>FF8000</Color>
                       <VariableType>Array of byte</VariableType>
                       <ByteLength>2</ByteLength>
                       <Address>+0xC</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>27</ID>
+                          <Description>"Support 2"</Description>
+                          <LastState Value="0 0" RealAddress="7FF67CDB73F8"/>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <Color>FF8000</Color>
+                          <VariableType>Array of byte</VariableType>
+                          <ByteLength>2</ByteLength>
+                          <Address>+0xC</Address>
+                        </CheatEntry>
+                      </CheatEntries>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>31</ID>
-              <Description>"Preset 7"</Description>
-              <ShowAsSigned>0</ShowAsSigned>
-              <Color>FF8000</Color>
-              <VariableType>Array of byte</VariableType>
-              <ByteLength>2</ByteLength>
-              <Address>+0x9f0</Address>
-              <CheatEntries>
                 <CheatEntry>
-                  <ID>32</ID>
-                  <Description>"Support 1"</Description>
+                  <ID>28</ID>
+                  <Description>"Preset 6"</Description>
+                  <LastState Value="0 0" RealAddress="7FF67CDB7588"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <Color>FF8000</Color>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>2</ByteLength>
-                  <Address>+0xc</Address>
+                  <Address>+0x848</Address>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>33</ID>
-                      <Description>"Support 2"</Description>
+                      <ID>29</ID>
+                      <Description>"Support 1"</Description>
+                      <LastState Value="0 0" RealAddress="7FF67CDB7594"/>
+                      <ShowAsSigned>0</ShowAsSigned>
+                      <Color>FF8000</Color>
+                      <VariableType>Array of byte</VariableType>
+                      <ByteLength>2</ByteLength>
+                      <Address>+0xC</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>30</ID>
+                          <Description>"Support 2"</Description>
+                          <LastState Value="0 0" RealAddress="7FF67CDB75A0"/>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <Color>FF8000</Color>
+                          <VariableType>Array of byte</VariableType>
+                          <ByteLength>2</ByteLength>
+                          <Address>+0xC</Address>
+                        </CheatEntry>
+                      </CheatEntries>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>31</ID>
+                  <Description>"Preset 7"</Description>
+                  <LastState Value="0 0" RealAddress="7FF67CDB7730"/>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>FF8000</Color>
+                  <VariableType>Array of byte</VariableType>
+                  <ByteLength>2</ByteLength>
+                  <Address>+0x9f0</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>32</ID>
+                      <Description>"Support 1"</Description>
+                      <LastState Value="0 0" RealAddress="7FF67CDB773C"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <Color>FF8000</Color>
                       <VariableType>Array of byte</VariableType>
                       <ByteLength>2</ByteLength>
                       <Address>+0xc</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>33</ID>
+                          <Description>"Support 2"</Description>
+                          <LastState Value="0 0" RealAddress="7FF67CDB7748"/>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <Color>FF8000</Color>
+                          <VariableType>Array of byte</VariableType>
+                          <ByteLength>2</ByteLength>
+                          <Address>+0xc</Address>
+                        </CheatEntry>
+                      </CheatEntries>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>34</ID>
-              <Description>"Preset 8"</Description>
-              <ShowAsSigned>0</ShowAsSigned>
-              <Color>FF8000</Color>
-              <VariableType>Array of byte</VariableType>
-              <ByteLength>2</ByteLength>
-              <Address>+0xb98</Address>
-              <CheatEntries>
                 <CheatEntry>
-                  <ID>35</ID>
-                  <Description>"Support 1"</Description>
+                  <ID>34</ID>
+                  <Description>"Preset 8"</Description>
+                  <LastState Value="0 0" RealAddress="7FF67CDB78D8"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <Color>FF8000</Color>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>2</ByteLength>
-                  <Address>+0xC</Address>
+                  <Address>+0xb98</Address>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>36</ID>
-                      <Description>"Support 2"</Description>
+                      <ID>35</ID>
+                      <Description>"Support 1"</Description>
+                      <LastState Value="0 0" RealAddress="7FF67CDB78E4"/>
                       <ShowAsSigned>0</ShowAsSigned>
                       <Color>FF8000</Color>
                       <VariableType>Array of byte</VariableType>
                       <ByteLength>2</ByteLength>
                       <Address>+0xC</Address>
+                      <CheatEntries>
+                        <CheatEntry>
+                          <ID>36</ID>
+                          <Description>"Support 2"</Description>
+                          <LastState Value="0 0" RealAddress="7FF67CDB78F0"/>
+                          <ShowAsSigned>0</ShowAsSigned>
+                          <Color>FF8000</Color>
+                          <VariableType>Array of byte</VariableType>
+                          <ByteLength>2</ByteLength>
+                          <Address>+0xC</Address>
+                        </CheatEntry>
+                      </CheatEntries>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
